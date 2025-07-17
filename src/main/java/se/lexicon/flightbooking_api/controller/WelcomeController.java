@@ -12,6 +12,6 @@ import se.lexicon.flightbooking_api.enums.Sender;
 public class WelcomeController {
     @PostMapping
     public MessageDTO sayHello() {
-        return MessageDTO.fromBot("Welcome! I am FlyMate, your friendly flight booking assistant. How can I help you?");
+        return MessageDTO.fromBot("Welcome! I am FlyMate, your friendly flight booking assistant. Just below are some examples of what I can help you with...");
     }
 }
