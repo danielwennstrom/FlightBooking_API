@@ -17,6 +17,7 @@ public class MessageDTO {
     private Sender sender;
     private LocalDateTime timestamp;
     private List<ToolResponse> toolResponses;
+    private boolean fullWidth;
     
     public MessageDTO(String content, Sender sender)
     {
