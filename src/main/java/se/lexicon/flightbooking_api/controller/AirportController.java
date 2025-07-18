@@ -26,7 +26,6 @@ public class AirportController {
     
     @GetMapping("/search/")
     public List<AirportDTO> searchAirports(@RequestParam String query) {
-        System.out.println(query);
         return airportMapper.toDTOList(airportSearchService.searchAirports(query));
     }
 }

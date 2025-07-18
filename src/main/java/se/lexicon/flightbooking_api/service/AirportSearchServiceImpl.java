@@ -50,6 +50,10 @@ public class AirportSearchServiceImpl implements AirportSearchService {
 
     private void buildSearchIndices() {
         for (Airport airport : airports) {
+            if (!airport.hasValidIataCode()) {
+                continue;
+            };
+            
             if (StringUtils.hasText(airport.getIataCode())) {
                 iataIndex.computeIfAbsent(airport.getIataCode().toLowerCase(), k -> new ArrayList<>())
                         .add(airport);
@@ -83,46 +87,58 @@ public class AirportSearchServiceImpl implements AirportSearchService {
 
         String lowerQuery = query.toLowerCase().trim();
         Set<Airport> results = new LinkedHashSet<>();
-        
+
         if (query.length() == 3 && iataIndex.containsKey(lowerQuery)) {
-            results.addAll(iataIndex.get(lowerQuery));
+            results.addAll(iataIndex.get(lowerQuery).stream()
+                    .filter(Airport::hasValidIataCode)
+                    .toList());
         }
-        
+
         if (query.length() == 4 && icaoIndex.containsKey(lowerQuery)) {
-            results.addAll(icaoIndex.get(lowerQuery));
+            results.addAll(icaoIndex.get(lowerQuery).stream()
+                    .filter(Airport::hasValidIataCode)
+                    .toList());
         }
-        
+
         iataIndex.entrySet().stream()
                 .filter(entry -> entry.getKey().startsWith(lowerQuery))
-                .forEach(entry -> results.addAll(entry.getValue()));
-        
+                .forEach(entry -> results.addAll(entry.getValue().stream()
+                        .filter(Airport::hasValidIataCode)
+                        .toList()));
+
         if (cityIndex.containsKey(lowerQuery)) {
-            results.addAll(cityIndex.get(lowerQuery));
+            results.addAll(cityIndex.get(lowerQuery).stream()
+                    .filter(Airport::hasValidIataCode)
+                    .toList());
         }
-        
+
         if (countryIndex.containsKey(lowerQuery)) {
-            results.addAll(countryIndex.get(lowerQuery));
+            results.addAll(countryIndex.get(lowerQuery).stream()
+                    .filter(Airport::hasValidIataCode)
+                    .toList());
         }
-        
+
         if (results.size() < limit) {
             airports.stream()
                     .filter(airport -> airport.getName() != null &&
-                            airport.getName().toLowerCase().contains(lowerQuery))
+                            airport.getName().toLowerCase().contains(lowerQuery) &&
+                            airport.hasValidIataCode())
                     .forEach(results::add);
         }
-        
+
         if (results.size() < limit) {
             airports.stream()
                     .filter(airport -> airport.getMunicipality() != null &&
-                            airport.getMunicipality().toLowerCase().contains(lowerQuery))
+                            airport.getMunicipality().toLowerCase().contains(lowerQuery) &&
+                            airport.hasValidIataCode())
                     .forEach(results::add);
         }
 
         return results.stream()
-                .filter(Airport::hasValidIataCode)
                 .limit(limit)
                 .collect(Collectors.toList());
     }
+
 
     public List<Airport> getAirportsByCountry(String countryCode) {
         if (!StringUtils.hasText(countryCode)) {
@@ -153,13 +169,17 @@ public class AirportSearchServiceImpl implements AirportSearchService {
     public List<Airport> getAllAirports() {
         return new ArrayList<>(airports);
     }
-    
+
     public List<Airport> getLimitedAirports(int limit) {
-        if (limit <= 0 || limit > airports.size()) {
-            throw new IllegalArgumentException("Limit must be between 1 and the number of airports");
+        List<Airport> filtered = airports.stream()
+                .filter(Airport::hasValidIataCode)
+                .collect(Collectors.toList());
+
+        if (limit <= 0 || limit > filtered.size()) {
+            throw new IllegalArgumentException("Limit must be between 1 and the number of airports with valid IATA codes");
         }
 
-        return new ArrayList<>(airports.subList(0, limit));
+        return new ArrayList<>(filtered.subList(0, limit));
     }
 
     public long getAirportCount() {
