@@ -1,26 +1,17 @@
 package se.lexicon.flightbooking_api.controller;
 
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import se.lexicon.flightbooking_api.dto.*;
-import se.lexicon.flightbooking_api.service.FlightBookingService;
 import se.lexicon.flightbooking_api.service.OpenAiService;
 
-import java.util.List;
-
 @RestController
-@RequestMapping("/api/flights")
+@RequestMapping("/api/chat")
 @RequiredArgsConstructor
 @Tag(name = "Flight Booking API", description = "APIs for flight booking operations")
-public class FlightBookingController {
+public class ChatController {
     private final OpenAiService openAiService;
 
 //    private final FlightBookingService flightBookingService;
@@ -73,7 +64,7 @@ public class FlightBookingController {
 //        flightBookingService.cancelFlight(flightId, email);
 //        return ResponseEntity.noContent().build();
 //    }
-    @PostMapping("/chat")
+    @PostMapping
     @ResponseStatus(HttpStatus.OK)
     public MessageDTO chat(@RequestBody MessageDTO message) {
         return openAiService.generateResponse(message);
