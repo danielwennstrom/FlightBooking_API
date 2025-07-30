@@ -1,11 +1,13 @@
 package se.lexicon.flightbooking_api.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+@Builder
 @Data
 public class FlightInfo {
     private String departure;
@@ -13,7 +15,7 @@ public class FlightInfo {
     private LocalDate departureDate;
     private LocalDate returnDate;
     private Integer passengers;
-    private String flightClass;
+    private String cabinClass;
     private Boolean isRoundTrip;
 
     public boolean isComplete() {

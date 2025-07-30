@@ -1,6 +1,7 @@
 package se.lexicon.flightbooking_api.dto;
 
 import lombok.Data;
+import se.lexicon.flightbooking_api.entity.FlightInfo;
 import se.lexicon.flightbooking_api.entity.ToolResponse;
 import se.lexicon.flightbooking_api.enums.Sender;
 
@@ -18,6 +19,7 @@ public class MessageDTO {
     private LocalDateTime timestamp;
     private List<ToolResponse> toolResponses;
     private boolean fullWidth;
+    private FlightInfo flightInfo;
     
     public MessageDTO(String content, Sender sender)
     {
