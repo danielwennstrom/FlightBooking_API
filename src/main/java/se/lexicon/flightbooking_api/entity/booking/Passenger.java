@@ -1,5 +1,6 @@
 package se.lexicon.flightbooking_api.entity.booking;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -15,5 +16,6 @@ public class Passenger {
     private String passengerEmail;
     @ManyToOne
     @JoinColumn(name = "booking_id")
+    @JsonBackReference
     private Booking booking;
 }

@@ -1,7 +1,10 @@
 package se.lexicon.flightbooking_api.entity.booking;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
+import lombok.AccessLevel;
 import lombok.Data;
+import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 import se.lexicon.flightbooking_api.entity.flights.Flight;
 
@@ -17,6 +20,7 @@ public class Booking {
     @Id
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id = UUID.randomUUID();
+    @Setter(AccessLevel.NONE)
     private LocalDateTime createdAt;
     private String contactEmail;
 
@@ -29,9 +33,10 @@ public class Booking {
     private String cabinClass;
     private boolean isRoundTrip;
 
-    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Passenger> passengerList;
-    
+
     private double totalPrice;
     private String currency;
 
@@ -51,11 +56,14 @@ public class Booking {
         this.cabinClass = cabinClass;
         this.isRoundTrip = isRoundTrip;
     }
-    
+
     @PrePersist
     public void prePersist() {
-        if (this.createdAt == null) {
-            this.createdAt = LocalDateTime.now();
-        }
+        this.createdAt = LocalDateTime.now();
+    }
+
+    public void addPassenger(Passenger passenger) {
+        passenger.setBooking(this);
+        this.passengerList.add(passenger);
     }
 }
