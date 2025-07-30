@@ -12,7 +12,7 @@ import java.time.LocalDate;
 public class FlightSearchTools {
     private FlightInfo lastParsedFlightInfo;
 
-    @Tool(description = "Extract and structure flight information for API calls")
+    @Tool(description = "Extract and structure flight information for API calls. Always parse the dates into ISO format: yyyy-MM-dd")
     public String extractFlightDetails(
             String departure,
             String destination,

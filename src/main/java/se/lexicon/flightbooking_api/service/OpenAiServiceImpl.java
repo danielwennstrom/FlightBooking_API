@@ -21,11 +21,13 @@ public class OpenAiServiceImpl implements OpenAiService {
     private final OpenAiConfig openAiConfig;
     private final FlightSearchTools flightSearchTools;
     private final VisualToolResponseTools visualToolResponseTools;
+    private final FlightBookingTools flightBookingTools;
 
-    public OpenAiServiceImpl(ChatClient.Builder chatClientBuilder, ChatMemory chatMemory, OpenAiConfig openAiConfig, FlightSearchTools flightSearchTools, VisualToolResponseTools visualToolResponseTools) {
+    public OpenAiServiceImpl(ChatClient.Builder chatClientBuilder, ChatMemory chatMemory, OpenAiConfig openAiConfig, FlightSearchTools flightSearchTools, VisualToolResponseTools visualToolResponseTools, FlightBookingTools flightBookingTools) {
         this.openAiConfig = openAiConfig;
         this.flightSearchTools = flightSearchTools;
         this.visualToolResponseTools = visualToolResponseTools;
+        this.flightBookingTools = flightBookingTools;
         this.chatClient = chatClientBuilder.defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build()).build();
         this.chatMemory = chatMemory;
     }
@@ -42,7 +44,7 @@ public class OpenAiServiceImpl implements OpenAiService {
         Prompt prompt = Prompt.builder().messages(systemMessage, userMessage).build();
         ChatResponse response = chatClient.prompt(prompt)
                 .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, message.getId()))
-                .tools(flightSearchTools, visualToolResponseTools)
+                .tools(flightSearchTools, visualToolResponseTools, flightBookingTools)
                 .call()
                 .chatResponse();
 
