@@ -1,7 +1,11 @@
 package se.lexicon.flightbooking_api.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import se.lexicon.flightbooking_api.entity.flights.Flight;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -9,6 +13,9 @@ import java.util.List;
 
 @Builder
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class FlightInfo {
     private String departure;
     private String destination;
@@ -17,7 +24,6 @@ public class FlightInfo {
     private Integer passengers;
     private String cabinClass;
     private Boolean isRoundTrip;
-
     public boolean isComplete() {
         return departure != null && destination != null && departureDate != null;
     }

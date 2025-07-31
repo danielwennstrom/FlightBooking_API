@@ -1,99 +1,143 @@
 package se.lexicon.flightbooking_api.service;
 
+import jakarta.transaction.Transactional;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Component;
+import se.lexicon.flightbooking_api.dto.booking.BookingDTO;
+import se.lexicon.flightbooking_api.dto.booking.PassengerDTO;
 import se.lexicon.flightbooking_api.entity.booking.Booking;
 import se.lexicon.flightbooking_api.entity.booking.Passenger;
+import se.lexicon.flightbooking_api.entity.flights.Flight;
+import se.lexicon.flightbooking_api.entity.flights.FlightSegment;
+import se.lexicon.flightbooking_api.entity.flights.Layover;
+import se.lexicon.flightbooking_api.mapper.BookingMapper;
+import se.lexicon.flightbooking_api.mapper.PassengerMapper;
 import se.lexicon.flightbooking_api.repository.FlightBookingRepository;
+import se.lexicon.flightbooking_api.repository.FlightRepository;
 
 import java.util.List;
-import java.util.Map;
 
 @Component
 public class FlightBookingTools {
-    private Booking lastParsedBookingInfo;
-    private final FlightBookingRepository flightBookingRepository;
 
-    public FlightBookingTools(FlightBookingRepository flightBookingRepository) {
+    private final FlightBookingRepository flightBookingRepository;
+    private final FlightRepository flightRepository;
+    private final BookingMapper bookingMapper;
+    private final PassengerMapper passengerMapper;
+
+    public FlightBookingTools(
+            FlightBookingRepository flightBookingRepository, FlightRepository flightRepository,
+            BookingMapper bookingMapper, PassengerMapper passengerMapper
+    ) {
         this.flightBookingRepository = flightBookingRepository;
+        this.flightRepository = flightRepository;
+        this.bookingMapper = bookingMapper;
+        this.passengerMapper = passengerMapper;
     }
 
     @Tool(description = "Search flight bookings by passenger e-mail")
-    public List<Booking> searchByPassengerEmail(String email) {
-        System.out.println("Launching searchByPassengerEmail");
-        return flightBookingRepository.findBookingsByContactEmail(email);
+    public List<BookingDTO> searchByPassengerEmail(String email) {
+        return flightBookingRepository.findBookingsByContactEmail(email)
+                .stream()
+                .map(bookingMapper::toDto)
+                .toList();
     }
 
-    @Tool(description = "Extract and structure booking info including passengers")
-    public String extractBookingInfo(
-            Booking booking,
-            List<Passenger> passengerDataList
+    @Tool(description = "Extract and structure booking info including passengers. MUST be used before bookFlight.")
+    public Booking extractBookingInfo(
+            BookingDTO bookingDto,
+            List<PassengerDTO> passengerDataList
     ) {
         System.out.println("Launching extractBookingInfo");
-        System.out.println(booking);
-        System.out.println(passengerDataList);
-        
-        booking.getPassengerList().clear();
+        System.out.println(bookingDto);
+        Booking bookingInfo = bookingMapper.toEntity(bookingDto);
+        setPassengerAssociation(passengerDataList, bookingInfo);
 
-        for (Passenger passengerData : passengerDataList) {
-            Passenger passenger = new Passenger();
-            passenger.setPassengerName(passengerData.getPassengerName());
-            passenger.setPassengerEmail(passengerData.getPassengerEmail());
-            booking.addPassenger(passenger);
-        }
-
-        this.lastParsedBookingInfo = booking;
-        System.out.println("Extracted booking info: " + booking);
-
-        return booking.toString();
+        System.out.println("Extracted booking info: " + bookingInfo);
+        return bookingInfo;
     }
 
-
-    @Tool(description = "Book the flight with booking info and passenger details, then save to database")
-    public Booking bookFlight(Booking bookingInfo, List<Passenger> passengerDataList) {
-        System.out.println("Launching bookFlight");
-        System.out.println(bookingInfo);
-        System.out.println(passengerDataList);
-        
-        bookingInfo.getPassengerList().clear();
-        for (Passenger passengerData : passengerDataList) {
-            Passenger passenger = new Passenger();
-            passenger.setPassengerName(passengerData.getPassengerName());
-            passenger.setPassengerEmail(passengerData.getPassengerEmail());
+    private void setPassengerAssociation(List<PassengerDTO> passengerDataList, Booking bookingInfo) {
+        passengerDataList.forEach(dto -> {
+            Passenger passenger = passengerMapper.toEntity(dto);
+            passenger.setBooking(bookingInfo);
             bookingInfo.addPassenger(passenger);
+        });
+    }
+
+    private Flight setFlightAssociations(Flight flight) {
+        if (flight.getFlights() != null) {
+            for (FlightSegment segment : flight.getFlights()) {
+                segment.setFlight(flight);
+            }
+        }
+        if (flight.getLayovers() != null) {
+            for (Layover layover : flight.getLayovers()) {
+                layover.setFlight(flight);
+            }
+        }
+        return flight;
+    }
+
+    @Transactional
+    @Tool(description = "Book the flight with booking info and passenger details, then save to database. NEVER use it before extractBookingInfo.")
+    public BookingDTO bookFlight(BookingDTO bookingDTO,
+                           List<PassengerDTO> passengerDataList) {
+        System.out.println("Launching bookFlight");
+        Booking booking = bookingMapper.toEntity(bookingDTO);
+        System.out.println(booking);
+        System.out.println(passengerDataList.size());
+
+//        booking.getPassengerList().clear();
+        setPassengerAssociation(passengerDataList, booking);
+
+        if (booking.getDepartureFlight() != null) {
+            Flight departureFlight = setFlightAssociations(booking.getDepartureFlight());
+            flightRepository.save(departureFlight);
         }
 
-        Booking savedBooking = flightBookingRepository.save(bookingInfo);
+        if (booking.getReturnFlight() != null) {
+            Flight returnFlight = setFlightAssociations(booking.getReturnFlight());
+            flightRepository.save(returnFlight);
+        }
 
-        System.out.println("Booking saved: " + savedBooking);
-        return savedBooking;
+        try {
+            Booking savedBooking = flightBookingRepository.saveAndFlush(booking);
+            System.out.println("=== Booking saved successfully ===");
+            System.out.println("Saved booking ID: " + savedBooking.getId());
+            return bookingMapper.toDto(savedBooking);
+        } catch (Exception e) {
+            System.err.println("Error saving booking: " + e.getMessage());
+            e.printStackTrace();
+            throw e;
+        }
     }
-    
+
     @Tool(description = "Cancels the flight booking using the passenger's contact email")
-    public String cancelFlight(Booking booking) {
+    public String cancelFlight(BookingDTO bookingDto) {
+        Booking booking = bookingMapper.toEntity(bookingDto);
         flightBookingRepository.delete(booking);
         return "Booking deleted";
     }
 
     @Tool(description = "Build the final booking confirmation message with relevant information to the user")
-    public String buildBookingConfirmation(Booking booking) {
+    public String buildBookingConfirmation(BookingDTO bookingDto) {
         StringBuilder sb = new StringBuilder();
         sb.append("Booking successful! 🎉\n");
-        sb.append("Booking ID: ").append(booking.getId()).append("\n");
-        sb.append("Flight: ").append(booking.getDeparture())
-                .append(" to ").append(booking.getDestination()).append("\n");
-        sb.append("Departure date: ").append(booking.getDepartureDate().toLocalDate()).append("\n");
-        if (booking.isRoundTrip()) {
-            sb.append("Return date: ").append(booking.getReturnDate().toLocalDate()).append("\n");
+        sb.append("Booking ID: ").append(bookingDto.getId()).append("\n");
+        sb.append("Flight: ").append(bookingDto.getDeparture())
+                .append(" to ").append(bookingDto.getDestination()).append("\n");
+        sb.append("Departure date: ").append(bookingDto.getDepartureDate().toLocalDate()).append("\n");
+        if (bookingDto.isRoundTrip()) {
+            sb.append("Return date: ").append(bookingDto.getReturnDate().toLocalDate()).append("\n");
         }
         sb.append("Passengers:\n");
-        for (Passenger p : booking.getPassengerList()) {
+        for (PassengerDTO p : bookingDto.getPassengerList()) {
             sb.append("- ").append(p.getPassengerName()).append("\n");
         }
-        sb.append("Confirmation email sent to: ").append(booking.getContactEmail()).append("\n");
-        sb.append("Total price: ").append(booking.getTotalPrice()).append(" ").append(booking.getCurrency());
+        sb.append("Confirmation email sent to: ").append(bookingDto.getContactEmail()).append("\n");
+        sb.append("Total price: ").append(bookingDto.getTotalPrice()).append(" ").append(bookingDto.getCurrency());
 
         return sb.toString();
     }
-
 }

@@ -1,11 +1,13 @@
 package se.lexicon.flightbooking_api.dto.flights;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 @Getter
 @Setter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class FlightSegmentDTO {
     private FlightAirportDTO departureAirport;
     private FlightAirportDTO arrivalAirport;

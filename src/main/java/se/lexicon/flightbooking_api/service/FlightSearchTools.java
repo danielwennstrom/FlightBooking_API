@@ -4,6 +4,7 @@ import lombok.Getter;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Component;
 import se.lexicon.flightbooking_api.entity.FlightInfo;
+import se.lexicon.flightbooking_api.entity.flights.Flight;
 
 import java.time.LocalDate;
 
@@ -12,7 +13,7 @@ import java.time.LocalDate;
 public class FlightSearchTools {
     private FlightInfo lastParsedFlightInfo;
 
-    @Tool(description = "Extract and structure flight information for API calls. Always parse the dates into ISO format: yyyy-MM-dd")
+    @Tool(description = "Extract and structure flight information for API calls and database persistence. Always parse the dates into ISO format: yyyy-MM-dd")
     public String extractFlightDetails(
             String departure,
             String destination,

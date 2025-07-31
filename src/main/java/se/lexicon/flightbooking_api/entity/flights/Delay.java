@@ -1,9 +1,21 @@
 package se.lexicon.flightbooking_api.entity.flights;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
+import lombok.Setter;
 
-@Getter
+@Entity
+@Data
 public class Delay {
-    private boolean values;
+    @Id
+    @GeneratedValue
+    private Long id;
+    @JsonProperty("values")
+    private boolean delayValues;
     private int text;
+//    @ManyToOne
+//    @JoinColumn(name = "flight_id")
+//    private Flight flight;
 }

@@ -10,9 +10,12 @@ import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.stereotype.Service;
 import se.lexicon.flightbooking_api.config.OpenAiConfig;
 import se.lexicon.flightbooking_api.dto.MessageDTO;
+import se.lexicon.flightbooking_api.dto.flights.FlightDTO;
 import se.lexicon.flightbooking_api.entity.ToolResponse;
 
+import java.io.Console;
 import java.time.LocalDate;
+import java.util.List;
 
 @Service
 public class OpenAiServiceImpl implements OpenAiService {
@@ -36,10 +39,26 @@ public class OpenAiServiceImpl implements OpenAiService {
     public MessageDTO generateResponse(MessageDTO message) {
         SystemMessage systemMessage = SystemMessage.builder()
                 .text(openAiConfig.getSystemPrompt().replace("{currentDate}", LocalDate.now().toString())).build();
+        
+        StringBuilder sb = new StringBuilder();
+        sb.append(message.getContent() + "\n\n");
+        List<FlightDTO> flightDTOS = null;
+
+        if (message.getToolResponses() != null && message.getToolResponses().stream().findFirst().isPresent()) {
+            flightDTOS = message.getToolResponses().stream().findFirst().get().getFlightData();
+        }
+
+        if (flightDTOS != null && !flightDTOS.isEmpty()) {
+            for (FlightDTO flight : flightDTOS) {
+                sb.append(flight.toString()).append("\n\n");
+            }
+        }
 
         UserMessage userMessage = UserMessage.builder()
-                .text(message.getContent())
+                .text(sb.toString())
                 .build();
+
+        System.out.println(userMessage.getText());
 
         Prompt prompt = Prompt.builder().messages(systemMessage, userMessage).build();
         ChatResponse response = chatClient.prompt(prompt)

@@ -1,11 +1,17 @@
 package se.lexicon.flightbooking_api.entity.flights;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
+import lombok.Setter;
 
-@Getter
+@Entity
+@Data
 public class Layover {
+    @Id
+    @GeneratedValue
+    private Long id;
     @JsonProperty("airport_code")
     private String airportCode;
 
@@ -17,4 +23,7 @@ public class Layover {
 
     private int duration;
     private String city;
+    @ManyToOne
+    @JoinColumn(name = "flight_id")
+    private Flight flight;
 }

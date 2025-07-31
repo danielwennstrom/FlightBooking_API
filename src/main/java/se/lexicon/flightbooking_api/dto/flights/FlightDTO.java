@@ -1,14 +1,21 @@
 package se.lexicon.flightbooking_api.dto.flights;
 
-import lombok.Getter;
-import lombok.Setter;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import lombok.*;
+import se.lexicon.flightbooking_api.deserializer.MultiFormatLocalDateTimeDeserializer;
 
+import java.time.LocalDateTime;
 import java.util.List;
 @Getter
 @Setter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class FlightDTO {
-    private String departure;
-    private String arrival;
+    @JsonDeserialize(using = MultiFormatLocalDateTimeDeserializer.class)
+    private LocalDateTime departure;
+    @JsonDeserialize(using = MultiFormatLocalDateTimeDeserializer.class)
+    private LocalDateTime arrival;
     private DurationDTO duration;
     private List<FlightSegmentDTO> flights;
     private List<LayoverDTO> layovers;

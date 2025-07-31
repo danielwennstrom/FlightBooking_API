@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import se.lexicon.flightbooking_api.dto.*;
 import se.lexicon.flightbooking_api.service.OpenAiService;
 
+import java.io.Console;
+
 @RestController
 @RequestMapping("/api/chat")
 @RequiredArgsConstructor

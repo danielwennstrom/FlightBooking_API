@@ -132,6 +132,11 @@
                             <version>1.6.3</version>
                         </path>
                     </annotationProcessorPaths>
+                    <compilerArgs>
+                        <compilerArg>-Amapstruct.verbose=true</compilerArg>
+                        <compilerArg>-Amapstruct.suppressGeneratorTimestamp=true</compilerArg>
+                        <compilerArg>-Amapstruct.debug=true</compilerArg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
             <plugin>
