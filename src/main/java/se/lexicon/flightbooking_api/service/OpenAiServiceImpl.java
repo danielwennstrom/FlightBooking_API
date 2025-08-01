@@ -1,5 +1,7 @@
 package se.lexicon.flightbooking_api.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
@@ -7,6 +9,7 @@ import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import se.lexicon.flightbooking_api.config.OpenAiConfig;
 import se.lexicon.flightbooking_api.dto.MessageDTO;
@@ -15,7 +18,10 @@ import se.lexicon.flightbooking_api.entity.ToolResponse;
 
 import java.io.Console;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class OpenAiServiceImpl implements OpenAiService {
@@ -39,9 +45,9 @@ public class OpenAiServiceImpl implements OpenAiService {
     public MessageDTO generateResponse(MessageDTO message) {
         SystemMessage systemMessage = SystemMessage.builder()
                 .text(openAiConfig.getSystemPrompt().replace("{currentDate}", LocalDate.now().toString())).build();
-        
         StringBuilder sb = new StringBuilder();
-        sb.append(message.getContent() + "\n\n");
+        sb.append(message.getContent()).append("\n\n");
+
         List<FlightDTO> flightDTOS = null;
 
         if (message.getToolResponses() != null && message.getToolResponses().stream().findFirst().isPresent()) {
@@ -49,9 +55,7 @@ public class OpenAiServiceImpl implements OpenAiService {
         }
 
         if (flightDTOS != null && !flightDTOS.isEmpty()) {
-            for (FlightDTO flight : flightDTOS) {
-                sb.append(flight.toString()).append("\n\n");
-            }
+            sb.append(flightDTOS);
         }
 
         UserMessage userMessage = UserMessage.builder()
@@ -91,7 +95,7 @@ public class OpenAiServiceImpl implements OpenAiService {
             botResponse.setFullWidth(true);
             botResponse.setContent(botResponse.getContent().replace("[LAUNCH_FLIGHT_PICKER]", ""));
         }
-        
+
         return botResponse;
     }
 }

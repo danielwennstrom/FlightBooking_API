@@ -12,6 +12,7 @@ import se.lexicon.flightbooking_api.mapper.GoogleFlightsResponseMapper;
 import se.lexicon.flightbooking_api.mapper.ItinerariesMapper;
 
 import java.io.IOException;
+import java.util.Map;
 
 @RestController
 @RequestMapping("api/flights")
@@ -38,7 +39,7 @@ public class FlightSearchController {
     }
 
     @PostMapping("/searchNext")
-    public ItinerariesDTO searchReturnFlights(@RequestParam String nextToken) throws IOException {
+    public ItinerariesDTO searchReturnFlights(@RequestBody Map<String, String> request) throws IOException {
         GoogleFlightsResponse response = objectMapper.readValue(returns.getInputStream(), GoogleFlightsResponse.class);
         ItinerariesDTO dto = itinerariesMapper.toDto(response.getData().getItineraries());
         return dto;

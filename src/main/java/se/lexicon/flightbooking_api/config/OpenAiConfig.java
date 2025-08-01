@@ -64,39 +64,39 @@ public class OpenAiConfig {
             ## Available Tools
             
             ### Core Tools
-            - **extractFlightDetails**: MANDATORY tool that extracts and structures flight information for API calls. MUST be called before every launchFlightPicker call with all provided flight information in ISO date format. 
+            - **extractFlightDetails**: MANDATORY tool that extracts and structures flight information for API calls. MUST be called before every launchFlightPicker call with all provided flight information in ISO date format.\s
               **Required parameters:**
               - departure: String (IATA code, e.g., "LAX")
-              - destination: String (IATA code, e.g., "JFK") 
+              - destination: String (IATA code, e.g., "JFK")\s
               - departureDate: String (ISO format "yyyy-MM-dd", e.g., "2025-08-01")
               - returnDate: String (ISO format "yyyy-MM-dd" or null for one-way, e.g., "2025-08-15")
               - passengers: Integer (e.g., 1)
-              - cabinClass: String (e.g., "economy")
-              - tripType: String ("one-way" or "round-trip")
+              - cabinClass: String (REQUIRED FORMAT: camelCase - "economy", "premiumEconomy", "business", "firstClass". Do NOT use spaces or hyphens)
+              - isRoundTrip: boolean
             - **launchDatePicker**: Quick date selection when dates are the only missing piece - MUST include [LAUNCH_DATE_PICKER] marker
             - **launchDestinationPicker**: Quick destination selection when destinations are missing - MUST include [LAUNCH_DESTINATION_PICKER] marker
             - **launchFlightPicker**: Visual flight comparison and selection - MUST include [LAUNCH_FLIGHT_PICKER] marker. Can ONLY be called after extractFlightDetails has been successfully executed.
             - **extractBookingInfo**: Takes a JSON exactly matching BookingDTO.
-                                        Fields:
-                                          - id: UUID (optional)
-                                          - contactEmail: string
-                                          - departure: string (IATA code)
-                                          - destination: string (IATA code)
-                                          - departureDate: ISO-8601 date-time (e.g. 2025-07-22T20:47:00)
-                                          - returnDate: ISO-8601 date-time or null
-                                          - passengers: integer
-                                          - cabinClass: string
-                                          - isRoundTrip: boolean
-                                          - departureFlight: FlightDTO
-                                          - returnFlight: FlightDTO or null
-                                          - passengerList: array of PassengerDTO
-                                          - totalPrice: double
-                                          - currency: string
-                                         Use this and extractFlightDetails to build the objects BEFORE final booking to validate and structure all info.
+                Fields:
+                  - id: UUID (optional)
+                  - contactEmail: string
+                  - departure: string (IATA code)
+                  - destination: string (IATA code)
+                  - departureDate: ISO-8601 date-time (e.g. 2025-07-22T20:47:00)
+                  - returnDate: ISO-8601 date-time or null
+                  - passengers: integer
+                  - cabinClass: string (REQUIRED FORMAT: camelCase - "economy", "premiumEconomy", "business", "firstClass". Do NOT use spaces or hyphens)
+                  - isRoundTrip: boolean
+                  - departureFlight: FlightDTO
+                  - returnFlight: FlightDTO or null
+                  - passengerList: array of PassengerDTO
+                  - totalPrice: double
+                  - currency: string
+                 Use this and extractFlightDetails to build the objects BEFORE final booking to validate and structure all info.
             - **bookFlight**: Books the flight using the already extracted booking info and passenger details, then persists it as a confirmed booking. Should be called only after extractBookingInfo to ensure the booking is fully prepared. Returns a finalized BookingDTO ready for confirmation display.
-            - **buildBookingConfirmation**: Final booking confirmation message
+            - **buildBookingConfirmation**: Final booking confirmation message.
             
-            **CRITICAL**: Always include the exact tool marker in brackets when calling visual tools. The backend relies on these markers to render the interface.
+            **CRITICAL**: ALWAYS include the exact tool marker in brackets when calling visual tools. The backend relies on these markers to render the interface.
             
             ## Streamlined Usage Pattern
             

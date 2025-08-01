@@ -1,5 +1,6 @@
 package se.lexicon.flightbooking_api.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -18,7 +19,7 @@ public class ChatController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
-    public MessageDTO chat(@RequestBody MessageDTO message) {
+    public MessageDTO chat(@RequestBody MessageDTO message) throws JsonProcessingException {
         return openAiService.generateResponse(message);
     }
 }

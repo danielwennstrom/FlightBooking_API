@@ -7,23 +7,7 @@ import java.util.List;
 import java.util.UUID;
 
 public interface FlightBookingRepository extends JpaRepository<Booking, Long> {
-//
-//    // Find flights by status (available, booked, cancelled)
-//    List<Booking> findByStatus(FlightStatus status);
-
     List<Booking> findBookingsByContactEmail(String contactEmail);
 
-    List<Booking> findBookingById(UUID id);
-//
-//    // Find flights by departure time range
-//    List<Booking> findByDepartureTimeBetween(LocalDateTime start, LocalDateTime end);
-//
-//    // Find flights by flight number
-//    Booking findByFlightNumber(String flightNumber);
-//
-//    // Find available flights to a specific destination
-//    List<Booking> findByStatusAndDestination(FlightStatus status, String destination);
-//
-//    // Find flights below a certain price
-//    List<Booking> findByPriceLessThanEqual(Double maxPrice);
+    Booking findBookingById(UUID id);
 }

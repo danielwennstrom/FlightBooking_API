@@ -1,5 +1,6 @@
 package se.lexicon.flightbooking_api.entity.flights;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import jakarta.persistence.*;
@@ -44,12 +45,15 @@ public class Flight {
     private double price;
     private int stops;
 
+    @Transient
     @JsonProperty("airline_logo")
     private String airlineLogo;
 
+    @Transient
     @JsonProperty("next_token")
     private String nextToken;
 
+    @Transient
     @JsonProperty("booking_token")
     private String bookingToken;
     

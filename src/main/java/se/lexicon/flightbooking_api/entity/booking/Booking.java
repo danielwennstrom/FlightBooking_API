@@ -2,11 +2,13 @@ package se.lexicon.flightbooking_api.entity.booking;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
+import se.lexicon.flightbooking_api.deserializer.MultiFormatLocalDateTimeDeserializer;
 import se.lexicon.flightbooking_api.entity.FlightInfo;
 import se.lexicon.flightbooking_api.entity.flights.Flight;
 
@@ -29,7 +31,9 @@ public class Booking {
     // trip information from FlightInfo
     private String departure;
     private String destination;
+    @JsonDeserialize(using = MultiFormatLocalDateTimeDeserializer.class)
     private LocalDateTime departureDate;
+    @JsonDeserialize(using = MultiFormatLocalDateTimeDeserializer.class)
     private LocalDateTime returnDate;
     private int passengers;
     private String cabinClass;

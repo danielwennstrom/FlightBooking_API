@@ -16,6 +16,7 @@ import se.lexicon.flightbooking_api.repository.FlightBookingRepository;
 import se.lexicon.flightbooking_api.repository.FlightRepository;
 
 import java.util.List;
+import java.util.UUID;
 
 @Component
 public class FlightBookingTools {
@@ -41,6 +42,12 @@ public class FlightBookingTools {
                 .stream()
                 .map(bookingMapper::toDto)
                 .toList();
+    }
+
+    @Tool(description = "Search flight bookings by ID. Use if there are several bookings," +
+            " and user provided part of or the whole booking ID, or to cancel the flight.")
+    public BookingDTO searchById(UUID id) {
+        return bookingMapper.toDto(flightBookingRepository.findBookingById(id));
     }
 
     @Tool(description = "Extract and structure booking info including passengers. MUST be used before bookFlight.")
@@ -123,6 +130,7 @@ public class FlightBookingTools {
     @Tool(description = "Build the final booking confirmation message with relevant information to the user")
     public String buildBookingConfirmation(BookingDTO bookingDto) {
         StringBuilder sb = new StringBuilder();
+        System.out.println(bookingDto);
         sb.append("Booking successful! 🎉\n");
         sb.append("Booking ID: ").append(bookingDto.getId()).append("\n");
         sb.append("Flight: ").append(bookingDto.getDeparture())
