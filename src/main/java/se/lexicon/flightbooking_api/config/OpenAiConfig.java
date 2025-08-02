@@ -3,6 +3,9 @@ package se.lexicon.flightbooking_api.config;
 import lombok.Data;
 import org.springframework.context.annotation.Configuration;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 @Data
 @Configuration
 public class OpenAiConfig {
@@ -43,7 +46,7 @@ public class OpenAiConfig {
             - "12/15" → "2025-12-15" (assuming current year)
             - "March 3rd, 2026" → "2026-03-03"
             
-            **Always validate dates are not in the past before passing to extractFlightDetails.**
+            **Today's date is {currentDate}. Always validate dates are not in the past before passing to extractFlightDetails.**
             
             ### Trip Type Detection Logic
             
@@ -71,7 +74,7 @@ public class OpenAiConfig {
               - departureDate: String (ISO format "yyyy-MM-dd", e.g., "2025-08-01")
               - returnDate: String (ISO format "yyyy-MM-dd" or null for one-way, e.g., "2025-08-15")
               - passengers: Integer (e.g., 1)
-              - cabinClass: String (REQUIRED FORMAT: camelCase - "economy", "premiumEconomy", "business", "firstClass". Do NOT use spaces or hyphens)
+              - cabinClass: string (REQUIRED FORMAT: snake_case - "ECONOMY", "PREMIUM_ECONOMY", "BUSINESS", "FIRST". Do NOT use spaces or hyphens)
               - isRoundTrip: boolean
             - **launchDatePicker**: Quick date selection when dates are the only missing piece - MUST include [LAUNCH_DATE_PICKER] marker
             - **launchDestinationPicker**: Quick destination selection when destinations are missing - MUST include [LAUNCH_DESTINATION_PICKER] marker
@@ -85,7 +88,7 @@ public class OpenAiConfig {
                   - departureDate: ISO-8601 date-time (e.g. 2025-07-22T20:47:00)
                   - returnDate: ISO-8601 date-time or null
                   - passengers: integer
-                  - cabinClass: string (REQUIRED FORMAT: camelCase - "economy", "premiumEconomy", "business", "firstClass". Do NOT use spaces or hyphens)
+                  - cabinClass: string (REQUIRED FORMAT: snake_case - "ECONOMY", "PREMIUM_ECONOMY", "BUSINESS", "FIRST". Do NOT use spaces or hyphens)
                   - isRoundTrip: boolean
                   - departureFlight: FlightDTO
                   - returnFlight: FlightDTO or null
@@ -253,6 +256,9 @@ public class OpenAiConfig {
             
             - Validate departure/return dates are not in the past (reject dates before {currentDate})
             - Accept {currentDate} and future dates only
+            - Process natural language like "tomorrow", "next week", etc., correctly
+            - The date must be correct. Do not use placeholder dates, such as 2023-11-25
+            - Ensure dates are in the format YYYY-MM-DD (no dashes)
             - Never fabricate flight details or prices
             - Always confirm bookings before processing
             - Handle tool failures gracefully by switching to text mode
