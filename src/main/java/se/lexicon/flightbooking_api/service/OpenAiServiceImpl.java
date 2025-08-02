@@ -62,8 +62,6 @@ public class OpenAiServiceImpl implements OpenAiService {
                 .text(sb.toString())
                 .build();
 
-        System.out.println(userMessage.getText());
-
         Prompt prompt = Prompt.builder().messages(systemMessage, userMessage).build();
         ChatResponse response = chatClient.prompt(prompt)
                 .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, message.getId()))
@@ -75,9 +73,7 @@ public class OpenAiServiceImpl implements OpenAiService {
         String responseText = response.getResult().getOutput().getText();
 
         MessageDTO botResponse = MessageDTO.fromBot(responseText);
-        System.out.println(responseText);
         botResponse.setFlightInfo(flightSearchTools.getLastParsedFlightInfo());
-        System.out.println(flightSearchTools.getLastParsedFlightInfo());
 
         assert responseText != null;
         if (responseText.contains("[LAUNCH_DATE_PICKER]")) {

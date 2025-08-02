@@ -56,7 +56,6 @@ public class FlightBookingTools {
             List<PassengerDTO> passengerDataList
     ) {
         System.out.println("Launching extractBookingInfo");
-        System.out.println(bookingDto);
         Booking bookingInfo = bookingMapper.toEntity(bookingDto);
         setPassengerAssociation(passengerDataList, bookingInfo);
 
@@ -92,10 +91,7 @@ public class FlightBookingTools {
                            List<PassengerDTO> passengerDataList) {
         System.out.println("Launching bookFlight");
         Booking booking = bookingMapper.toEntity(bookingDTO);
-        System.out.println(booking);
-        System.out.println(passengerDataList.size());
-
-//        booking.getPassengerList().clear();
+        
         setPassengerAssociation(passengerDataList, booking);
 
         if (booking.getDepartureFlight() != null) {
@@ -130,7 +126,6 @@ public class FlightBookingTools {
     @Tool(description = "Build the final booking confirmation message with relevant information to the user")
     public String buildBookingConfirmation(BookingDTO bookingDto) {
         StringBuilder sb = new StringBuilder();
-        System.out.println(bookingDto);
         sb.append("Booking successful! 🎉\n");
         sb.append("Booking ID: ").append(bookingDto.getId()).append("\n");
         sb.append("Flight: ").append(bookingDto.getDeparture())
