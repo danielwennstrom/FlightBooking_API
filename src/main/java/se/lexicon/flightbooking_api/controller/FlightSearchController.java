@@ -12,6 +12,7 @@ import se.lexicon.flightbooking_api.entity.FlightInfo;
 import se.lexicon.flightbooking_api.entity.flights.GoogleFlightsResponse;
 import se.lexicon.flightbooking_api.mapper.ItinerariesMapper;
 
+import java.io.IOException;
 import java.util.Map;
 
 @RestController
