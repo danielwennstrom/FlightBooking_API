@@ -3,6 +3,7 @@ package se.lexicon.flightbooking_api.dto.flights;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.*;
 import se.lexicon.flightbooking_api.deserializer.MultiFormatLocalDateTimeDeserializer;
+import se.lexicon.flightbooking_api.deserializer.PriceDeserializer;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -20,7 +21,8 @@ public class FlightDTO {
     private List<FlightSegmentDTO> flights;
     private List<LayoverDTO> layovers;
     private BagsDTO bags;
-    private double price;
+    @JsonDeserialize(using = PriceDeserializer.class)
+    private Double price;
     private int stops;
     private String airlineLogo;
     private String nextToken;

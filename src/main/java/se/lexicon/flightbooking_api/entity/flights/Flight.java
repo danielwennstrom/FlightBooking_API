@@ -9,6 +9,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import se.lexicon.flightbooking_api.deserializer.MultiFormatLocalDateTimeDeserializer;
+import se.lexicon.flightbooking_api.deserializer.PriceDeserializer;
 import se.lexicon.flightbooking_api.entity.booking.Booking;
 
 import java.time.LocalDateTime;
@@ -42,7 +43,8 @@ public class Flight {
     @JsonProperty("carbon_emissions")
     private CarbonEmissions carbonEmissions;
 
-    private double price;
+    @JsonDeserialize(using = PriceDeserializer.class)
+    private Double price;
     private int stops;
 
     @Transient
