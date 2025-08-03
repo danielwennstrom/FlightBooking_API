@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 public class AirportSearchServiceImpl implements AirportSearchService {
     @Value("classpath:data/airports.csv")
     private Resource airportsCsvResource;
-    private Logger logger = LoggerFactory.getLogger(AirportSearchServiceImpl.class);
+    private final Logger logger = LoggerFactory.getLogger(AirportSearchServiceImpl.class);
 
     private List<Airport> airports = new ArrayList<>();
     private final Map<String, List<Airport>> iataIndex = new HashMap<>();
@@ -43,6 +43,7 @@ public class AirportSearchServiceImpl implements AirportSearchService {
         try (InputStreamReader reader = new InputStreamReader(airportsCsvResource.getInputStream())) {
             airports = new CsvToBeanBuilder<Airport>(reader)
                     .withType(Airport.class)
+                    .withSkipLines(1)
                     .build()
                     .parse();
         }
@@ -52,7 +53,7 @@ public class AirportSearchServiceImpl implements AirportSearchService {
         for (Airport airport : airports) {
             if (!airport.hasValidIataCode()) {
                 continue;
-            };
+            }
             
             if (StringUtils.hasText(airport.getIataCode())) {
                 iataIndex.computeIfAbsent(airport.getIataCode().toLowerCase(), k -> new ArrayList<>())
