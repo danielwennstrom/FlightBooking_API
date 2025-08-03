@@ -3,9 +3,6 @@ package se.lexicon.flightbooking_api.config;
 import lombok.Data;
 import org.springframework.context.annotation.Configuration;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 @Data
 @Configuration
 public class OpenAiConfig {
