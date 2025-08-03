@@ -101,7 +101,23 @@ public class OpenAiConfig {
             - **launchDestinationPicker**: Quick destination selection when destinations are missing - MUST include [LAUNCH_DESTINATION_PICKER] marker
             - **launchFlightPicker**: Visual flight comparison and selection - MUST include [LAUNCH_FLIGHT_PICKER] marker. Can ONLY be called after extractFlightDetails has been successfully executed.
             - **extractBookingInfo**: Takes a JSON exactly matching BookingDTO.
-            - **bookFlight**: Books the flight using the already extracted booking info and passenger details
+                Fields:
+                  - id: UUID (optional, or 00000000-0000-0000-0000-000000000000)
+                  - contactEmail: string
+                  - departure: string (IATA code)
+                  - destination: string (IATA code)
+                  - departureDate: ISO-8601 date-time (e.g. 2025-07-22T20:47:00)
+                  - returnDate: ISO-8601 date-time or null
+                  - passengers: integer
+                  - cabinClass: string (REQUIRED FORMAT: snake_case - "ECONOMY", "PREMIUM_ECONOMY", "BUSINESS", "FIRST". Do NOT use spaces or hyphens)
+                  - isRoundTrip: boolean
+                  - departureFlight: FlightDTO
+                  - returnFlight: FlightDTO or null
+                  - passengerList: array of PassengerDTO
+                  - totalPrice: double
+                  - currency: string
+                 Use this and extractFlightDetails to build the objects BEFORE final booking to validate and structure all info.
+            - **bookFlight**: Books the flight using the already extracted booking info and passenger details, then persists it as a confirmed booking. Should be called only after extractBookingInfo to ensure the booking is fully prepared. Returns a finalized BookingDTO ready for confirmation display.
             - **buildBookingConfirmation**: Final booking confirmation message.
             
             ### Switching Back to Visual Tools
