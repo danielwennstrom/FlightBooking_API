@@ -1,0 +1,5390 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1752845720590,
+  "data": {
+    "itineraries": {
+      "topFlights": [
+        {
+          "departure_time": "22-07-2025 08:47 PM",
+          "arrival_time": "23-07-2025 05:30 AM",
+          "duration": {
+            "raw": 343,
+            "text": "5 hr 43 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 20:47"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 05:30"
+              },
+              "duration": {
+                "raw": 343,
+                "text": "5 hr 43 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 2504",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 246 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -30,
+            "CO2e": 246000,
+            "typical_for_this_route": 350000,
+            "higher": -104000
+          },
+          "price": 351,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkY5IiwiMjUwNCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 06:00 AM",
+          "arrival_time": "22-07-2025 02:40 PM",
+          "duration": {
+            "raw": 340,
+            "text": "5 hr 40 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 06:00"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 14:40"
+              },
+              "duration": {
+                "raw": 340,
+                "text": "5 hr 40 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 118",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTE4Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 07:10 AM",
+          "arrival_time": "22-07-2025 03:49 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 07:10"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 15:49"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 124",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiMTI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 06:00 AM",
+          "arrival_time": "22-07-2025 02:40 PM",
+          "duration": {
+            "raw": 340,
+            "text": "5 hr 40 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 06:00"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 14:40"
+              },
+              "duration": {
+                "raw": 340,
+                "text": "5 hr 40 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 934",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 214 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -39,
+            "CO2e": 214000,
+            "typical_for_this_route": 350000,
+            "higher": -136000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTM0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        }
+      ],
+      "otherFlights": [
+        {
+          "departure_time": "22-07-2025 01:57 PM",
+          "arrival_time": "23-07-2025 10:23 AM",
+          "duration": {
+            "raw": 1046,
+            "text": "17 hr 26 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 13:57"
+              },
+              "arrival_airport": {
+                "airport_name": "Orlando International Airport",
+                "airport_code": "MCO",
+                "time": "2025-7-22 21:52"
+              },
+              "duration": {
+                "raw": 295,
+                "text": "4 hr 55 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 4146",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 217 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Orlando International Airport",
+                "airport_code": "MCO",
+                "time": "2025-7-23 07:35"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 10:23"
+              },
+              "duration": {
+                "raw": 168,
+                "text": "2 hr 48 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 4872",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 107 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "MCO",
+              "airport_name": "Orlando International Airport",
+              "duration_label": "9 hr 43 min",
+              "duration": 583,
+              "city": "Orlando"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -8,
+            "CO2e": 323000,
+            "typical_for_this_route": 350000,
+            "higher": -27000
+          },
+          "price": 461,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk1DTyIsIkY5IiwiNDE0NiJdLFsiTUNPIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkY5IiwiNDg3MiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 03:48 PM",
+          "arrival_time": "23-07-2025 05:30 AM",
+          "duration": {
+            "raw": 642,
+            "text": "10 hr 42 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 15:48"
+              },
+              "arrival_airport": {
+                "airport_name": "Harry Reid International Airport",
+                "airport_code": "LAS",
+                "time": "2025-7-22 17:12"
+              },
+              "duration": {
+                "raw": 84,
+                "text": "1 hr 24 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 3292",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 42 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Harry Reid International Airport",
+                "airport_code": "LAS",
+                "time": "2025-7-22 21:17"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 05:30"
+              },
+              "duration": {
+                "raw": 313,
+                "text": "5 hr 13 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 3238",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 226 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "LAS",
+              "airport_name": "Harry Reid International Airport",
+              "duration_label": "4 hr 5 min",
+              "duration": 245,
+              "city": "Las Vegas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -24,
+            "CO2e": 267000,
+            "typical_for_this_route": 350000,
+            "higher": -83000
+          },
+          "price": 461,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkxBUyIsIkY5IiwiMzI5MiJdLFsiTEFTIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkY5IiwiMzIzOCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 07:03 PM",
+          "arrival_time": "23-07-2025 11:55 AM",
+          "duration": {
+            "raw": 832,
+            "text": "13 hr 52 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 19:03"
+              },
+              "arrival_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-23 00:28"
+              },
+              "duration": {
+                "raw": 205,
+                "text": "3 hr 25 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 4964",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 129 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-23 07:05"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 11:55"
+              },
+              "duration": {
+                "raw": 230,
+                "text": "3 hr 50 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 1512",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 152 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "DFW",
+              "airport_name": "Dallas Fort Worth International Airport",
+              "duration_label": "6 hr 37 min",
+              "duration": 397,
+              "city": "Dallas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -20,
+            "CO2e": 281000,
+            "typical_for_this_route": 350000,
+            "higher": -69000
+          },
+          "price": 461,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkRGVyIsIkY5IiwiNDk2NCJdLFsiREZXIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkY5IiwiMTUxMiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 06:00 AM",
+          "arrival_time": "22-07-2025 09:30 PM",
+          "duration": {
+            "raw": 750,
+            "text": "12 hr 30 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 06:00"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-22 13:58"
+              },
+              "duration": {
+                "raw": 298,
+                "text": "4 hr 58 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1499",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 213 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-22 19:32"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 21:30"
+              },
+              "duration": {
+                "raw": 118,
+                "text": "1 hr 58 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1727",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 102 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "5 hr 34 min",
+              "duration": 334,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -10,
+            "CO2e": 315000,
+            "typical_for_this_route": 350000,
+            "higher": -35000
+          },
+          "price": 679,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMTQ5OSJdLFsiQ0xUIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTcyNyJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 09:48 PM",
+          "arrival_time": "23-07-2025 12:28 PM",
+          "duration": {
+            "raw": 700,
+            "text": "11 hr 40 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 21:48"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 05:37"
+              },
+              "duration": {
+                "raw": 289,
+                "text": "4 hr 49 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2199",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 271 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 10:30"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 12:28"
+              },
+              "duration": {
+                "raw": 118,
+                "text": "1 hr 58 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 374",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 94 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "4 hr 53 min",
+              "duration": 293,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 4,
+            "CO2e": 365000,
+            "typical_for_this_route": 350000,
+            "higher": 15000
+          },
+          "price": 679,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMjE5OSJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMzc0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 09:48 PM",
+          "arrival_time": "23-07-2025 01:39 PM",
+          "duration": {
+            "raw": 771,
+            "text": "12 hr 51 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 21:48"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 05:37"
+              },
+              "duration": {
+                "raw": 289,
+                "text": "4 hr 49 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2199",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 271 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 11:34"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 13:39"
+              },
+              "duration": {
+                "raw": 125,
+                "text": "2 hr 5 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2812",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 102 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "5 hr 57 min",
+              "duration": 357,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 7,
+            "CO2e": 373000,
+            "typical_for_this_route": 350000,
+            "higher": 23000
+          },
+          "price": 679,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMjE5OSJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMjgxMiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 10:44 PM",
+          "arrival_time": "23-07-2025 01:39 PM",
+          "duration": {
+            "raw": 715,
+            "text": "11 hr 55 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:44"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 06:35"
+              },
+              "duration": {
+                "raw": 291,
+                "text": "4 hr 51 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 3035",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 271 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 11:34"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 13:39"
+              },
+              "duration": {
+                "raw": 125,
+                "text": "2 hr 5 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2812",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 102 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "4 hr 59 min",
+              "duration": 299,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 7,
+            "CO2e": 373000,
+            "typical_for_this_route": 350000,
+            "higher": 23000
+          },
+          "price": 679,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMzAzNSJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMjgxMiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 07:00 AM",
+          "arrival_time": "22-07-2025 07:29 PM",
+          "duration": {
+            "raw": 569,
+            "text": "9 hr 29 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 07:00"
+              },
+              "arrival_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 09:47"
+              },
+              "duration": {
+                "raw": 167,
+                "text": "2 hr 47 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 504",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 122 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 11:06"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 19:29"
+              },
+              "duration": {
+                "raw": 323,
+                "text": "5hr 23 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 34",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 277 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SEA",
+              "airport_name": "Seattle–Tacoma International Airport",
+              "duration_label": "1 hr 19 min",
+              "duration": 79,
+              "city": "Seattle"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 399000,
+            "typical_for_this_route": 350000,
+            "higher": 49000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNFQSIsIkFTIiwiNTA0Il0sWyJTRUEiLCIyMDI1LTA3LTIyIiwiSkZLIiwiQVMiLCIzNCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 08:00 AM",
+          "arrival_time": "22-07-2025 10:59 PM",
+          "duration": {
+            "raw": 719,
+            "text": "11 hr 59 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 08:00"
+              },
+              "arrival_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 10:53"
+              },
+              "duration": {
+                "raw": 173,
+                "text": "2 hr 53 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 1179",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 122 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 14:37"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 22:59"
+              },
+              "duration": {
+                "raw": 322,
+                "text": "5 hr 22 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 16",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 277 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SEA",
+              "airport_name": "Seattle–Tacoma International Airport",
+              "duration_label": "3 hr 44 min",
+              "duration": 224,
+              "city": "Seattle"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 399000,
+            "typical_for_this_route": 350000,
+            "higher": 49000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNFQSIsIkFTIiwiMTE3OSJdLFsiU0VBIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFTIiwiMTYiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 08:52 AM",
+          "arrival_time": "22-07-2025 10:08 PM",
+          "duration": {
+            "raw": 616,
+            "text": "10 hr 16 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 08:52"
+              },
+              "arrival_airport": {
+                "airport_name": "San Francisco International Airport",
+                "airport_code": "SFO",
+                "time": "2025-7-22 10:20"
+              },
+              "duration": {
+                "raw": 88,
+                "text": "1 hr 28 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 2150",
+              "aircraft": "Embraer 175",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 95 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "San Francisco International Airport",
+                "airport_code": "SFO",
+                "time": "2025-7-22 13:24"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 22:08"
+              },
+              "duration": {
+                "raw": 344,
+                "text": "5 hr 44 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 20",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 269 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SFO",
+              "airport_name": "San Francisco International Airport",
+              "duration_label": "3 hr 4 min",
+              "duration": 184,
+              "city": "San Francisco"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 4,
+            "CO2e": 363000,
+            "typical_for_this_route": 350000,
+            "higher": 13000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNGTyIsIkFTIiwiMjE1MCJdLFsiU0ZPIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFTIiwiMjAiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 09:50 AM",
+          "arrival_time": "22-07-2025 10:59 PM",
+          "duration": {
+            "raw": 609,
+            "text": "10 hr 9 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 09:50"
+              },
+              "arrival_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 12:35"
+              },
+              "duration": {
+                "raw": 165,
+                "text": "2 hr 45 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 798",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 131 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 14:37"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 22:59"
+              },
+              "duration": {
+                "raw": 322,
+                "text": "5 hr 22 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 16",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 277 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SEA",
+              "airport_name": "Seattle–Tacoma International Airport",
+              "duration_label": "2 hr 2 min",
+              "duration": 122,
+              "city": "Seattle"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 17,
+            "CO2e": 408000,
+            "typical_for_this_route": 350000,
+            "higher": 58000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNFQSIsIkFTIiwiNzk4Il0sWyJTRUEiLCIyMDI1LTA3LTIyIiwiSkZLIiwiQVMiLCIxNiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 05:15 PM",
+          "arrival_time": "23-07-2025 07:02 AM",
+          "duration": {
+            "raw": 647,
+            "text": "10 hr 47 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 17:15"
+              },
+              "arrival_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 20:00"
+              },
+              "duration": {
+                "raw": 165,
+                "text": "2 hr 45 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 1301",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 131 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 22:41"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 07:02"
+              },
+              "duration": {
+                "raw": 321,
+                "text": "5 hr 21 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 22",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 277 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SEA",
+              "airport_name": "Seattle–Tacoma International Airport",
+              "duration_label": "2 hr 41 min",
+              "duration": 161,
+              "city": "Seattle"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 17,
+            "CO2e": 408000,
+            "typical_for_this_route": 350000,
+            "higher": 58000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNFQSIsIkFTIiwiMTMwMSJdLFsiU0VBIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFTIiwiMjIiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 06:15 PM",
+          "arrival_time": "23-07-2025 07:02 AM",
+          "duration": {
+            "raw": 587,
+            "text": "9 hr 47 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 18:15"
+              },
+              "arrival_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 21:00"
+              },
+              "duration": {
+                "raw": 165,
+                "text": "2 hr 45 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 1093",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 131 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Seattle–Tacoma International Airport",
+                "airport_code": "SEA",
+                "time": "2025-7-22 22:41"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 07:02"
+              },
+              "duration": {
+                "raw": 321,
+                "text": "5 hr 21 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 22",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 277 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SEA",
+              "airport_name": "Seattle–Tacoma International Airport",
+              "duration_label": "1 hr 41 min",
+              "duration": 101,
+              "city": "Seattle"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 17,
+            "CO2e": 408000,
+            "typical_for_this_route": 350000,
+            "higher": 58000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNFQSIsIkFTIiwiMTA5MyJdLFsiU0VBIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFTIiwiMjIiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 10:35 PM",
+          "arrival_time": "23-07-2025 03:00 PM",
+          "duration": {
+            "raw": 805,
+            "text": "13 hr 25 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:35"
+              },
+              "arrival_airport": {
+                "airport_name": "San Francisco International Airport",
+                "airport_code": "SFO",
+                "time": "2025-7-22 23:57"
+              },
+              "duration": {
+                "raw": 82,
+                "text": "1 hr 22 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 3338",
+              "aircraft": "Embraer 175",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 95 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "San Francisco International Airport",
+                "airport_code": "SFO",
+                "time": "2025-7-23 06:18"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 15:00"
+              },
+              "duration": {
+                "raw": 342,
+                "text": "5 hr 42 min"
+              },
+              "airline": "Alaska",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+              "flight_number": "AS 30",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 269 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SFO",
+              "airport_name": "San Francisco International Airport",
+              "duration_label": "6 hr 21 min",
+              "duration": 381,
+              "city": "San Francisco"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 4,
+            "CO2e": 363000,
+            "typical_for_this_route": 350000,
+            "higher": 13000
+          },
+          "price": 716,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNGTyIsIkFTIiwiMzMzOCJdLFsiU0ZPIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFTIiwiMzAiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 06:50 AM",
+          "arrival_time": "22-07-2025 03:29 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 06:50"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 15:29"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 07:45 AM",
+          "arrival_time": "22-07-2025 04:25 PM",
+          "duration": {
+            "raw": 340,
+            "text": "5 hr 40 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 07:45"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 16:25"
+              },
+              "duration": {
+                "raw": 340,
+                "text": "5 hr 40 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 307",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMzA3Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:17 AM",
+          "arrival_time": "22-07-2025 07:56 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 11:17"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 19:56"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 32",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMzIiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 12:21 PM",
+          "arrival_time": "22-07-2025 09:00 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 12:21"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 21:00"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 274",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMjc0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 03:20 PM",
+          "arrival_time": "22-07-2025 11:59 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 15:20"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 23:59"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 4",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiNCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 09:21 PM",
+          "arrival_time": "23-07-2025 05:59 AM",
+          "duration": {
+            "raw": 338,
+            "text": "5 hr 38 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 21:21"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 05:59"
+              },
+              "duration": {
+                "raw": 338,
+                "text": "5 hr 38 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 10",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 748,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTAiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 09:40 AM",
+          "arrival_time": "22-07-2025 06:23 PM",
+          "duration": {
+            "raw": 343,
+            "text": "5 hr 43 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 09:40"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 18:23"
+              },
+              "duration": {
+                "raw": 343,
+                "text": "5 hr 43 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 524",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiNTI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 10:30 AM",
+          "arrival_time": "22-07-2025 07:15 PM",
+          "duration": {
+            "raw": 345,
+            "text": "5 hr 45 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 10:30"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 19:15"
+              },
+              "duration": {
+                "raw": 345,
+                "text": "5 hr 45 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 424",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "32 in",
+              "extensions": [
+                "Above average legroom (32 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 396 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 13,
+            "CO2e": 396000,
+            "typical_for_this_route": 350000,
+            "higher": 46000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiNDI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 12:21 PM",
+          "arrival_time": "22-07-2025 09:00 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 12:21"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 21:00"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 324",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiMzI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 01:10 PM",
+          "arrival_time": "22-07-2025 09:56 PM",
+          "duration": {
+            "raw": 346,
+            "text": "5 hr 46 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 13:10"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 21:56"
+              },
+              "duration": {
+                "raw": 346,
+                "text": "5 hr 46 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 224",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiMjI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 02:20 PM",
+          "arrival_time": "22-07-2025 10:59 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 14:20"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 22:59"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 624",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiNjI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 03:18 PM",
+          "arrival_time": "22-07-2025 11:59 PM",
+          "duration": {
+            "raw": 341,
+            "text": "5 hr 41 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 15:18"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 23:59"
+              },
+              "duration": {
+                "raw": 341,
+                "text": "5 hr 41 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 924",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiOTI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 04:20 PM",
+          "arrival_time": "23-07-2025 12:55 AM",
+          "duration": {
+            "raw": 335,
+            "text": "5 hr 35 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 16:20"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 00:55"
+              },
+              "duration": {
+                "raw": 335,
+                "text": "5 hr 35 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 824",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiODI0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 08:36 PM",
+          "arrival_time": "23-07-2025 05:07 AM",
+          "duration": {
+            "raw": 331,
+            "text": "5 hr 31 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 20:36"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 05:07"
+              },
+              "duration": {
+                "raw": 331,
+                "text": "5 hr 31 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 1024",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "32 in",
+              "extensions": [
+                "Above average legroom (32 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 396 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 13,
+            "CO2e": 396000,
+            "typical_for_this_route": 350000,
+            "higher": 46000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiMTAyNCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 10:27 PM",
+          "arrival_time": "23-07-2025 07:01 AM",
+          "duration": {
+            "raw": 334,
+            "text": "5 hr 34 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:27"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 07:01"
+              },
+              "duration": {
+                "raw": 334,
+                "text": "5 hr 34 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 1524",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiMTUyNCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 11:54 PM",
+          "arrival_time": "23-07-2025 08:31 AM",
+          "duration": {
+            "raw": 337,
+            "text": "5 hr 37 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:54"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 08:31"
+              },
+              "duration": {
+                "raw": 337,
+                "text": "5 hr 37 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 1224",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 398 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 14,
+            "CO2e": 398000,
+            "typical_for_this_route": 350000,
+            "higher": 48000
+          },
+          "price": 752,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkI2IiwiMTIyNCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 11:03 AM",
+          "arrival_time": "22-07-2025 11:46 PM",
+          "duration": {
+            "raw": 583,
+            "text": "9 hr 43 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 11:03"
+              },
+              "arrival_airport": {
+                "airport_name": "Fort Lauderdale-Hollywood International Airport",
+                "airport_code": "FLL",
+                "time": "2025-7-22 19:26"
+              },
+              "duration": {
+                "raw": 323,
+                "text": "5 hr 23 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 100",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 361 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Fort Lauderdale-Hollywood International Airport",
+                "airport_code": "FLL",
+                "time": "2025-7-22 20:50"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 23:46"
+              },
+              "duration": {
+                "raw": 176,
+                "text": "2 hr 56 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 2102",
+              "aircraft": "Airbus A321",
+              "seat": "Above average legroom",
+              "legroom": "32 in",
+              "extensions": [
+                "Above average legroom (32 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 160 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "FLL",
+              "airport_name": "Fort Lauderdale-Hollywood International Airport",
+              "duration_label": "1 hr 24 min",
+              "duration": 84,
+              "city": "Fort Lauderdale"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 49,
+            "CO2e": 521000,
+            "typical_for_this_route": 350000,
+            "higher": 171000
+          },
+          "price": 754,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkZMTCIsIkI2IiwiMTAwIl0sWyJGTEwiLCIyMDI1LTA3LTIyIiwiSkZLIiwiQjYiLCIyMTAyIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 12:40 AM",
+          "arrival_time": "22-07-2025 11:51 AM",
+          "duration": {
+            "raw": 491,
+            "text": "8 hr 11 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 00:40"
+              },
+              "arrival_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-22 05:49"
+              },
+              "duration": {
+                "raw": 189,
+                "text": "3 hr 9 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 971",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 139 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-22 07:05"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 11:51"
+              },
+              "duration": {
+                "raw": 226,
+                "text": "3 hr 46 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2049",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 190 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "DFW",
+              "airport_name": "Dallas Fort Worth International Airport",
+              "duration_label": "1 hr 16 min",
+              "duration": 76,
+              "city": "Dallas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -6,
+            "CO2e": 329000,
+            "typical_for_this_route": 350000,
+            "higher": -21000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkRGVyIsIkFBIiwiOTcxIl0sWyJERlciLCIyMDI1LTA3LTIyIiwiSkZLIiwiQUEiLCIyMDQ5Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 12:40 AM",
+          "arrival_time": "22-07-2025 01:56 PM",
+          "duration": {
+            "raw": 616,
+            "text": "10 hr 16 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 00:40"
+              },
+              "arrival_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-22 05:49"
+              },
+              "duration": {
+                "raw": 189,
+                "text": "3 hr 9 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 971",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 139 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-22 09:15"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 13:56"
+              },
+              "duration": {
+                "raw": 221,
+                "text": "3 hr 41 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1766",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 190 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "DFW",
+              "airport_name": "Dallas Fort Worth International Airport",
+              "duration_label": "3 hr 26 min",
+              "duration": 206,
+              "city": "Dallas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -6,
+            "CO2e": 329000,
+            "typical_for_this_route": 350000,
+            "higher": -21000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkRGVyIsIkFBIiwiOTcxIl0sWyJERlciLCIyMDI1LTA3LTIyIiwiSkZLIiwiQUEiLCIxNzY2Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 12:50 AM",
+          "arrival_time": "22-07-2025 01:28 PM",
+          "duration": {
+            "raw": 578,
+            "text": "9 hr 38 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 00:50"
+              },
+              "arrival_airport": {
+                "airport_name": "Chicago O'Hare International Airport",
+                "airport_code": "ORD",
+                "time": "2025-7-22 07:02"
+              },
+              "duration": {
+                "raw": 252,
+                "text": "4 hr 12 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2757",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 230 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Chicago O'Hare International Airport",
+                "airport_code": "ORD",
+                "time": "2025-7-22 10:08"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 13:28"
+              },
+              "duration": {
+                "raw": 140,
+                "text": "2 hr 20 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2994",
+              "aircraft": "Airbus A319",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 131 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "ORD",
+              "airport_name": "Chicago O'Hare International Airport",
+              "duration_label": "3 hr 6 min",
+              "duration": 186,
+              "city": "Chicago"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 3,
+            "CO2e": 361000,
+            "typical_for_this_route": 350000,
+            "higher": 11000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk9SRCIsIkFBIiwiMjc1NyJdLFsiT1JEIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMjk5NCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 01:22 AM",
+          "arrival_time": "22-07-2025 01:56 PM",
+          "duration": {
+            "raw": 574,
+            "text": "9 hr 34 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 01:22"
+              },
+              "arrival_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-22 06:35"
+              },
+              "duration": {
+                "raw": 193,
+                "text": "3 hr 13 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1445",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 176 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-22 09:15"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 13:56"
+              },
+              "duration": {
+                "raw": 221,
+                "text": "3 hr 41 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1766",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 190 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "DFW",
+              "airport_name": "Dallas Fort Worth International Airport",
+              "duration_label": "2 hr 40 min",
+              "duration": 160,
+              "city": "Dallas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 5,
+            "CO2e": 366000,
+            "typical_for_this_route": 350000,
+            "higher": 16000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkRGVyIsIkFBIiwiMTQ0NSJdLFsiREZXIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTc2NiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 09:37 AM",
+          "arrival_time": "22-07-2025 08:00 PM",
+          "duration": {
+            "raw": 443,
+            "text": "7 hr 23 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 09:37"
+              },
+              "arrival_airport": {
+                "airport_name": "Chicago O'Hare International Airport",
+                "airport_code": "ORD",
+                "time": "2025-7-22 15:56"
+              },
+              "duration": {
+                "raw": 259,
+                "text": "4 hr 19 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2608",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 182 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Chicago O'Hare International Airport",
+                "airport_code": "ORD",
+                "time": "2025-7-22 16:36"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 20:00"
+              },
+              "duration": {
+                "raw": 144,
+                "text": "2 hr 24 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1421",
+              "aircraft": "Airbus A319",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 131 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "ORD",
+              "airport_name": "Chicago O'Hare International Airport",
+              "duration_label": "0 hr 40 min",
+              "duration": 40,
+              "city": "Chicago"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -11,
+            "CO2e": 313000,
+            "typical_for_this_route": 350000,
+            "higher": -37000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk9SRCIsIkFBIiwiMjYwOCJdLFsiT1JEIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTQyMSJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 10:15 AM",
+          "arrival_time": "22-07-2025 08:20 PM",
+          "duration": {
+            "raw": 425,
+            "text": "7 hr 5 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 10:15"
+              },
+              "arrival_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 11:45"
+              },
+              "duration": {
+                "raw": 90,
+                "text": "1 hr 30 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2312",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 64 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 12:15"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 20:20"
+              },
+              "duration": {
+                "raw": 305,
+                "text": "5 hr 5 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2339",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 221 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "PHX",
+              "airport_name": "Phoenix Sky Harbor International Airport",
+              "duration_label": "0 hr 30 min",
+              "duration": 30,
+              "city": "Phoenix"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -19,
+            "CO2e": 285000,
+            "typical_for_this_route": 350000,
+            "higher": -65000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlBIWCIsIkFBIiwiMjMxMiJdLFsiUEhYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMjMzOSJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 01:23 PM",
+          "arrival_time": "22-07-2025 11:42 PM",
+          "duration": {
+            "raw": 439,
+            "text": "7 hr 19 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 13:23"
+              },
+              "arrival_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 14:50"
+              },
+              "duration": {
+                "raw": 87,
+                "text": "1 hr 27 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1994",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 75 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 15:39"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 23:42"
+              },
+              "duration": {
+                "raw": 303,
+                "text": "5 hr 3 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 832",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 221 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "PHX",
+              "airport_name": "Phoenix Sky Harbor International Airport",
+              "duration_label": "0 hr 49 min",
+              "duration": 49,
+              "city": "Phoenix"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -16,
+            "CO2e": 295000,
+            "typical_for_this_route": 350000,
+            "higher": -55000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlBIWCIsIkFBIiwiMTk5NCJdLFsiUEhYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiODMyIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 04:32 PM",
+          "arrival_time": "23-07-2025 05:40 AM",
+          "duration": {
+            "raw": 608,
+            "text": "10 hr 8 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 16:32"
+              },
+              "arrival_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 18:00"
+              },
+              "duration": {
+                "raw": 88,
+                "text": "1 hr 28 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2032",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 81 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 21:45"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 05:40"
+              },
+              "duration": {
+                "raw": 295,
+                "text": "4 hr 55 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1587",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 221 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "PHX",
+              "airport_name": "Phoenix Sky Harbor International Airport",
+              "duration_label": "3 hr 45 min",
+              "duration": 225,
+              "city": "Phoenix"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -14,
+            "CO2e": 302000,
+            "typical_for_this_route": 350000,
+            "higher": -48000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlBIWCIsIkFBIiwiMjAzMiJdLFsiUEhYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTU4NyJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 07:37 PM",
+          "arrival_time": "23-07-2025 05:40 AM",
+          "duration": {
+            "raw": 423,
+            "text": "7 hr 3 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 19:37"
+              },
+              "arrival_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 21:04"
+              },
+              "duration": {
+                "raw": 87,
+                "text": "1 hr 27 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1675",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 62 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Phoenix Sky Harbor International Airport",
+                "airport_code": "PHX",
+                "time": "2025-7-22 21:45"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 05:40"
+              },
+              "duration": {
+                "raw": 295,
+                "text": "4 hr 55 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 1587",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 221 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "PHX",
+              "airport_name": "Phoenix Sky Harbor International Airport",
+              "duration_label": "0 hr 41 min",
+              "duration": 41,
+              "city": "Phoenix"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -19,
+            "CO2e": 283000,
+            "typical_for_this_route": 350000,
+            "higher": -67000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlBIWCIsIkFBIiwiMTY3NSJdLFsiUEhYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMTU4NyJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-202510:44 PM",
+          "arrival_time": "23-07-2025 10:05 AM",
+          "duration": {
+            "raw": 501,
+            "text": "8 hr 21 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:44"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 06:35"
+              },
+              "duration": {
+                "raw": 291,
+                "text": "4 hr 51 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 3035",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 271 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 08:11"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 10:05"
+              },
+              "duration": {
+                "raw": 114,
+                "text": "1 hr 54 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 493",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 94 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "1 hr 36 min",
+              "duration": 96,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 4,
+            "CO2e": 365000,
+            "typical_for_this_route": 350000,
+            "higher": 15000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMzAzNSJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiNDkzIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 10:44 PM",
+          "arrival_time": "23-07-2025 12:28 PM",
+          "duration": {
+            "raw": 644,
+            "text": "10 hr 44 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:44"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 06:35"
+              },
+              "duration": {
+                "raw": 291,
+                "text": "4 hr 51 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 3035",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 271 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 10:30"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 12:28"
+              },
+              "duration": {
+                "raw": 118,
+                "text": "1 hr 58 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 374",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 94 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "3 hr 55 min",
+              "duration": 235,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 4,
+            "CO2e": 365000,
+            "typical_for_this_route": 350000,
+            "higher": 15000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMzAzNSJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMzc0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:39 PM",
+          "arrival_time": "23-07-2025 10:05 AM",
+          "duration": {
+            "raw": 446,
+            "text": "7 hr 26 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:39"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 07:35"
+              },
+              "duration": {
+                "raw": 296,
+                "text": "4 hr 56 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2680",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 213 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 08:11"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 10:05"
+              },
+              "duration": {
+                "raw": 114,
+                "text": "1 hr 54 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 493",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 94 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "0 hr 36 min",
+              "duration": 36,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -12,
+            "CO2e": 307000,
+            "typical_for_this_route": 350000,
+            "higher": -43000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMjY4MCJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiNDkzIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:39 PM",
+          "arrival_time": "23-07-2025 12:28 PM",
+          "duration": {
+            "raw": 589,
+            "text": "9 hr 49 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:39"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 07:35"
+              },
+              "duration": {
+                "raw": 296,
+                "text": "4 hr 56 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2680",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 213 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 10:30"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 12:28"
+              },
+              "duration": {
+                "raw": 118,
+                "text": "1 hr 58 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 374",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 94 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "2 hr 55 min",
+              "duration": 175,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -12,
+            "CO2e": 307000,
+            "typical_for_this_route": 350000,
+            "higher": -43000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMjY4MCJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMzc0Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:39 PM",
+          "arrival_time": "23-07-2025 01:39 PM",
+          "duration": {
+            "raw": 660,
+            "text": "11 hr 0 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:39"
+              },
+              "arrival_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 07:35"
+              },
+              "duration": {
+                "raw": 296,
+                "text": "4 hr 56 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2680",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 213 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Charlotte Douglas International Airport",
+                "airport_code": "CLT",
+                "time": "2025-7-23 11:34"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 13:39"
+              },
+              "duration": {
+                "raw": 125,
+                "text": "2 hr 5 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2812",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 102 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "CLT",
+              "airport_name": "Charlotte Douglas International Airport",
+              "duration_label": "3 hr 59 min",
+              "duration": 239,
+              "city": "Charlotte"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -10,
+            "CO2e": 315000,
+            "typical_for_this_route": 350000,
+            "higher": -35000
+          },
+          "price": 758,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkNMVCIsIkFBIiwiMjY4MCJdLFsiQ0xUIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMjgxMiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 07:00 AM",
+          "arrival_time": "22-07-2025 03:40 PM",
+          "duration": {
+            "raw": 340,
+            "text": "5 hr 40 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 07:00"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 15:40"
+              },
+              "duration": {
+                "raw": 340,
+                "text": "5 hr 40 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 979",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 214 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -39,
+            "CO2e": 214000,
+            "typical_for_this_route": 350000,
+            "higher": -136000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTc5Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 09:10 AM",
+          "arrival_time": "22-07-2025 06:10 PM",
+          "duration": {
+            "raw": 360,
+            "text": "6 hr 0 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 09:10"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 18:10"
+              },
+              "duration": {
+                "raw": 360,
+                "text": "6 hr 0 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 958",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 214 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -39,
+            "CO2e": 214000,
+            "typical_for_this_route": 350000,
+            "higher": -136000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTU4Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 10:10 AM",
+          "arrival_time": "22-07-2025 07:20 PM",
+          "duration": {
+            "raw": 370,
+            "text": "6 hr 10 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 10:10"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 19:20"
+              },
+              "duration": {
+                "raw": 370,
+                "text": "6 hr 10 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 938",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 227 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -35,
+            "CO2e": 227000,
+            "typical_for_this_route": 350000,
+            "higher": -123000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTM4Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:35 AM",
+          "arrival_time": "22-07-2025 08:29 PM",
+          "duration": {
+            "raw": 354,
+            "text": "5 hr 54 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 11:35"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 20:29"
+              },
+              "duration": {
+                "raw": 354,
+                "text": "5 hr 54 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 951",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 214 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -39,
+            "CO2e": 214000,
+            "typical_for_this_route": 350000,
+            "higher": -136000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTUxIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 12:55 PM",
+          "arrival_time": "22-07-2025 09:50 PM",
+          "duration": {
+            "raw": 355,
+            "text": "5 hr 55 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 12:55"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 21:50"
+              },
+              "duration": {
+                "raw": 355,
+                "text": "5 hr 55 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 939",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 227 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -35,
+            "CO2e": 227000,
+            "typical_for_this_route": 350000,
+            "higher": -123000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTM5Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 03:15 PM",
+          "arrival_time": "22-07-2025 11:58 PM",
+          "duration": {
+            "raw": 343,
+            "text": "5 hr 43 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 15:15"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 23:58"
+              },
+              "duration": {
+                "raw": 343,
+                "text": "5 hr 43 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 991",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 227 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -35,
+            "CO2e": 227000,
+            "typical_for_this_route": 350000,
+            "higher": -123000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTkxIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 09:30 PM",
+          "arrival_time": "23-07-2025 06:00 AM",
+          "duration": {
+            "raw": 330,
+            "text": "5 hr 30 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 21:30"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 06:00"
+              },
+              "duration": {
+                "raw": 330,
+                "text": "5 hr 30 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 960",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 214 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -39,
+            "CO2e": 214000,
+            "typical_for_this_route": 350000,
+            "higher": -136000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTYwIl1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:55 PM",
+          "arrival_time": "23-07-2025 08:33 AM",
+          "duration": {
+            "raw": 338,
+            "text": "5 hr 38 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:55"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 08:33"
+              },
+              "duration": {
+                "raw": 338,
+                "text": "5 hr 38 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 915",
+              "aircraft": "Boeing 767",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "On-demand video",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 227 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -35,
+            "CO2e": 227000,
+            "typical_for_this_route": 350000,
+            "higher": -123000
+          },
+          "price": 782,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiOTE1Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 11:15 PM",
+          "arrival_time": "23-07-2025 12:32 PM",
+          "duration": {
+            "raw": 617,
+            "text": "10 hr 17 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:15"
+              },
+              "arrival_airport": {
+                "airport_name": "Boston Logan International Airport",
+                "airport_code": "BOS",
+                "time": "2025-7-23 07:53"
+              },
+              "duration": {
+                "raw": 338,
+                "text": "5 hr 38 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 988",
+              "aircraft": "Airbus A320",
+              "seat": "Above average legroom",
+              "legroom": "33 in",
+              "extensions": [
+                "Above average legroom (33 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 403 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Boston Logan International Airport",
+                "airport_code": "BOS",
+                "time": "2025-7-23 11:15"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 12:32"
+              },
+              "duration": {
+                "raw": 77,
+                "text": "1 hr 17 min"
+              },
+              "airline": "JetBlue",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+              "flight_number": "B6 1017",
+              "aircraft": "Airbus A220-300 Passenger",
+              "seat": "Above average legroom",
+              "legroom": "32 in",
+              "extensions": [
+                "Above average legroom (32 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 66 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "BOS",
+              "airport_name": "Boston Logan International Airport",
+              "duration_label": "3 hr 22 min",
+              "duration": 202,
+              "city": "Boston"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 34,
+            "CO2e": 469000,
+            "typical_for_this_route": 350000,
+            "higher": 119000
+          },
+          "price": 798,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkJPUyIsIkI2IiwiOTg4Il0sWyJCT1MiLCIyMDI1LTA3LTIzIiwiSkZLIiwiQjYiLCIxMDE3Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 10:52 PM",
+          "arrival_time": "23-07-2025 07:33 AM",
+          "duration": {
+            "raw": 341,
+            "text": "5 hr 41 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:52"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 07:33"
+              },
+              "duration": {
+                "raw": 341,
+                "text": "5 hr 41 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 28",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 551 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 57,
+            "CO2e": 551000,
+            "typical_for_this_route": 350000,
+            "higher": 201000
+          },
+          "price": 843,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMjgiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 09:13 PM",
+          "arrival_time": "23-07-2025 06:59 PM",
+          "duration": {
+            "raw": 1126,
+            "text": "18 hr 46 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 21:13"
+              },
+              "arrival_airport": {
+                "airport_name": "San Francisco International Airport",
+                "airport_code": "SFO",
+                "time": "2025-7-22 22:37"
+              },
+              "duration": {
+                "raw": 84,
+                "text": "1 hr 24 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2061",
+              "aircraft": "Boeing 737",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 70 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "San Francisco International Airport",
+                "airport_code": "SFO",
+                "time": "2025-7-23 10:14"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 18:59"
+              },
+              "duration": {
+                "raw": 345,
+                "text": "5 hr 45 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 16",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 587 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "SFO",
+              "airport_name": "San Francisco International Airport",
+              "duration_label": "11 hr 37 min",
+              "duration": 697,
+              "city": "San Francisco"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 87,
+            "CO2e": 656000,
+            "typical_for_this_route": 350000,
+            "higher": 306000
+          },
+          "price": 968,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIlNGTyIsIkFBIiwiMjA2MSJdLFsiU0ZPIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiMTYiXV1dLFsiMjAyNS0wNy0yNiIsIkpGSyIsIkxBWCIsW11dXQ=="
+        },
+        {
+          "departure_time": "22-07-2025 10:33 PM",
+          "arrival_time": "23-07-2025 07:29 PM",
+          "duration": {
+            "raw": 1076,
+            "text": "17 hr 56 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 22:33"
+              },
+              "arrival_airport": {
+                "airport_name": "Boston Logan International Airport",
+                "airport_code": "BOS",
+                "time": "2025-7-23 07:05"
+              },
+              "duration": {
+                "raw": 332,
+                "text": "5 hr 32 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2453",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 538 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Boston Logan International Airport",
+                "airport_code": "BOS",
+                "time": "2025-7-23 17:56"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 19:29"
+              },
+              "duration": {
+                "raw": 93,
+                "text": "1 hr 33 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 4580",
+              "aircraft": "Embraer 175",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 82 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "BOS",
+              "airport_name": "Boston Logan International Airport",
+              "duration_label": "10 hr 51 min",
+              "duration": 651,
+              "city": "Boston"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 77,
+            "CO2e": 620000,
+            "typical_for_this_route": 350000,
+            "higher": 270000
+          },
+          "price": 1007,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkJPUyIsIkFBIiwiMjQ1MyJdLFsiQk9TIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiNDU4MCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 12:47 AM",
+          "arrival_time": "22-07-2025 10:49 AM",
+          "duration": {
+            "raw": 422,
+            "text": "7 hr 2 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 00:47"
+              },
+              "arrival_airport": {
+                "airport_name": "Minneapolis–Saint Paul International Airport",
+                "airport_code": "MSP",
+                "time": "2025-7-22 06:25"
+              },
+              "duration": {
+                "raw": 218,
+                "text": "3 hr 38 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 1308",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 208 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Minneapolis–Saint Paul International Airport",
+                "airport_code": "MSP",
+                "time": "2025-7-22 06:55"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 10:49"
+              },
+              "duration": {
+                "raw": 174,
+                "text": "2 hr 54 min"
+              },
+              "airline": "Delta",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+              "flight_number": "DL 2744",
+              "aircraft": "Airbus A220-100 Passenger",
+              "seat": "Average legroom",
+              "legroom": "31 in",
+              "extensions": [
+                "Average legroom (31 in)",
+                "In-seat power & USB outlets",
+                "Live TV",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 188 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "MSP",
+              "airport_name": "Minneapolis–Saint Paul International Airport",
+              "duration_label": "0 hr 30 min",
+              "duration": 30,
+              "city": "Minneapolis"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 13,
+            "CO2e": 396000,
+            "typical_for_this_route": 350000,
+            "higher": 46000
+          },
+          "price": 1146,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk1TUCIsIkRMIiwiMTMwOCJdLFsiTVNQIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkRMIiwiMjc0NCJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbXV1d"
+        },
+        {
+          "departure_time": "22-07-2025 11:54 PM",
+          "arrival_time": "23-07-2025 04:29 PM",
+          "duration": {
+            "raw": 815,
+            "text": "13 hr 35 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 23:54"
+              },
+              "arrival_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-23 05:06"
+              },
+              "duration": {
+                "raw": 192,
+                "text": "3 hr 12 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 2490",
+              "aircraft": "Airbus A321neo",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 139 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Dallas Fort Worth International Airport",
+                "airport_code": "DFW",
+                "time": "2025-7-23 11:47"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-23 16:29"
+              },
+              "duration": {
+                "raw": 222,
+                "text": "3 hr 42 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 606",
+              "aircraft": "Airbus A321",
+              "seat": "Average legroom",
+              "legroom": "30 in",
+              "extensions": [
+                "Average legroom (30 in)",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 208 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "DFW",
+              "airport_name": "Dallas Fort Worth International Airport",
+              "duration_label": "6 hr 41 min",
+              "duration": 401,
+              "city": "Dallas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -1,
+            "CO2e": 347000,
+            "typical_for_this_route": 350000,
+            "higher": -3000
+          },
+          "price": 1161,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkRGVyIsIkFBIiwiMjQ5MCJdLFsiREZXIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkFBIiwiNjA2Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        },
+        {
+          "departure_time": "22-07-2025 10:20 AM",
+          "arrival_time": "22-07-2025 06:59 PM",
+          "duration": {
+            "raw": 339,
+            "text": "5 hr 39 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-22 10:20"
+              },
+              "arrival_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-22 18:59"
+              },
+              "duration": {
+                "raw": 339,
+                "text": "5 hr 39 min"
+              },
+              "airline": "American",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+              "flight_number": "AA 238",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "seat": "Lie flat seat",
+              "legroom": "N/A",
+              "extensions": [
+                "Lie flat seat",
+                "In-seat power & USB outlets",
+                "Stream media to your device",
+                "Free Wi-Fi",
+                "Wi-Fi for a fee",
+                "Emissions estimate: 826 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": 136,
+            "CO2e": 826000,
+            "typical_for_this_route": 350000,
+            "higher": 476000
+          },
+          "price": 3188,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "next_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIkpGSyIsIkFBIiwiMjM4Il1dXSxbIjIwMjUtMDctMjYiLCJKRksiLCJMQVgiLFtdXV0="
+        }
+      ]
+    },
+    "priceHistory": {
+      "summary": {
+        "current": 351,
+        "low": [
+          {
+            "operation": "<",
+            "value": 230
+          }
+        ],
+        "typical": [
+          {
+            "operation": ">=",
+            "value": 230
+          },
+          {
+            "operation": "&&",
+            "value": null
+          },
+          {
+            "operation": "<=",
+            "value": 345
+          }
+        ],
+        "high": [
+          {
+            "operation": "<",
+            "value": 345
+          }
+        ]
+      },
+      "history": [
+        {
+          "time": 1747638000000,
+          "value": 189
+        },
+        {
+          "time": 1747724400000,
+          "value": 189
+        },
+        {
+          "time": 1747810800000,
+          "value": 189
+        },
+        {
+          "time": 1747897200000,
+          "value": 189
+        },
+        {
+          "time": 1747983600000,
+          "value": 189
+        },
+        {
+          "time": 1748070000000,
+          "value": 225
+        },
+        {
+          "time": 1748156400000,
+          "value": 225
+        },
+        {
+          "time": 1748242800000,
+          "value": 225
+        },
+        {
+          "time": 1748329200000,
+          "value": 225
+        },
+        {
+          "time": 1748415600000,
+          "value": 225
+        },
+        {
+          "time": 1748502000000,
+          "value": 220
+        },
+        {
+          "time": 1748588400000,
+          "value": 220
+        },
+        {
+          "time": 1748674800000,
+          "value": 220
+        },
+        {
+          "time": 1748761200000,
+          "value": 220
+        },
+        {
+          "time": 1748847600000,
+          "value": 220
+        },
+        {
+          "time": 1748934000000,
+          "value": 240
+        },
+        {
+          "time": 1749020400000,
+          "value": 240
+        },
+        {
+          "time": 1749106800000,
+          "value": 240
+        },
+        {
+          "time": 1749193200000,
+          "value": 240
+        },
+        {
+          "time": 1749279600000,
+          "value": 249
+        },
+        {
+          "time": 1749366000000,
+          "value": 249
+        },
+        {
+          "time": 1749452400000,
+          "value": 249
+        },
+        {
+          "time": 1749538800000,
+          "value": 283
+        },
+        {
+          "time": 1749625200000,
+          "value": 283
+        },
+        {
+          "time": 1749711600000,
+          "value": 283
+        },
+        {
+          "time": 1749798000000,
+          "value": 283
+        },
+        {
+          "time": 1749884400000,
+          "value": 322
+        },
+        {
+          "time": 1749970800000,
+          "value": 327
+        },
+        {
+          "time": 1750057200000,
+          "value": 327
+        },
+        {
+          "time": 1750143600000,
+          "value": 327
+        },
+        {
+          "time": 1750230000000,
+          "value": 322
+        },
+        {
+          "time": 1750316400000,
+          "value": 322
+        },
+        {
+          "time": 1750402800000,
+          "value": 317
+        },
+        {
+          "time": 1750489200000,
+          "value": 317
+        },
+        {
+          "time": 1750575600000,
+          "value": 317
+        },
+        {
+          "time": 1750662000000,
+          "value": 317
+        },
+        {
+          "time": 1750748400000,
+          "value": 317
+        },
+        {
+          "time": 1750834800000,
+          "value": 317
+        },
+        {
+          "time": 1750921200000,
+          "value": 232
+        },
+        {
+          "time": 1751007600000,
+          "value": 242
+        },
+        {
+          "time": 1751094000000,
+          "value": 266
+        },
+        {
+          "time": 1751180400000,
+          "value": 238
+        },
+        {
+          "time": 1751266800000,
+          "value": 236
+        },
+        {
+          "time": 1751353200000,
+          "value": 240
+        },
+        {
+          "time": 1751439600000,
+          "value": 240
+        },
+        {
+          "time": 1751526000000,
+          "value": 254
+        },
+        {
+          "time": 1751612400000,
+          "value": 258
+        },
+        {
+          "time": 1751698800000,
+          "value": 258
+        },
+        {
+          "time": 1751785200000,
+          "value": 273
+        },
+        {
+          "time": 1751871600000,
+          "value": 273
+        },
+        {
+          "time": 1751958000000,
+          "value": 283
+        },
+        {
+          "time": 1752044400000,
+          "value": 291
+        },
+        {
+          "time": 1752130800000,
+          "value": 275
+        },
+        {
+          "time": 1752217200000,
+          "value": 275
+        },
+        {
+          "time": 1752303600000,
+          "value": 331
+        },
+        {
+          "time": 1752390000000,
+          "value": 334
+        },
+        {
+          "time": 1752476400000,
+          "value": 334
+        },
+        {
+          "time": 1752562800000,
+          "value": 405
+        },
+        {
+          "time": 1752649200000,
+          "value": 339
+        },
+        {
+          "time": 1752735600000,
+          "value": 339
+        },
+        {
+          "time": 1752822000000,
+          "value": 351
+        }
+      ]
+    }
+  }
+}

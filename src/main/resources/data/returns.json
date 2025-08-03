@@ -1,0 +1,257 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1752846365935,
+  "data": {
+    "itineraries": {
+      "topFlights": [],
+      "otherFlights": [
+        {
+          "departure_time": "26-07-2025 11:37 AM",
+          "arrival_time": "26-07-2025 02:39 PM",
+          "duration": {
+            "raw": 362,
+            "text": "6 hr 2 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-26 11:37"
+              },
+              "arrival_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-26 14:39"
+              },
+              "duration": {
+                "raw": 362,
+                "text": "6 hr 2 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 2503",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 240 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": null,
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -30,
+            "CO2e": 240000,
+            "typical_for_this_route": 342000,
+            "higher": -102000
+          },
+          "price": 461,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "booking_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk1DTyIsIkY5IiwiNDE0NiJdLFsiTUNPIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkY5IiwiNDg3MiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbWyJKRksiLCIyMDI1LTA3LTI2IiwiTEFYIiwiRjkiLCIyNTAzIl1dXV0="
+        },
+        {
+          "departure_time": "26-07-2025 06:59 AM",
+          "arrival_time": "26-07-2025 05:08 PM",
+          "duration": {
+            "raw": 789,
+            "text": "13 hr 9 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-26 06:59"
+              },
+              "arrival_airport": {
+                "airport_name": "Orlando International Airport",
+                "airport_code": "MCO",
+                "time": "2025-7-26 09:59"
+              },
+              "duration": {
+                "raw": 180,
+                "text": "3 hr 0 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 4871",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 106 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Orlando International Airport",
+                "airport_code": "MCO",
+                "time": "2025-7-26 15:00"
+              },
+              "arrival_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-26 17:08"
+              },
+              "duration": {
+                "raw": 308,
+                "text": "5 hr 8 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 4145",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 216 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "MCO",
+              "airport_name": "Orlando International Airport",
+              "duration_label": "5 hr 1 min",
+              "duration": 301,
+              "city": "Orlando"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -6,
+            "CO2e": 322000,
+            "typical_for_this_route": 342000,
+            "higher": -20000
+          },
+          "price": 614,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "booking_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk1DTyIsIkY5IiwiNDE0NiJdLFsiTUNPIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkY5IiwiNDg3MiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbWyJKRksiLCIyMDI1LTA3LTI2IiwiTUNPIiwiRjkiLCI0ODcxIl0sWyJNQ08iLCIyMDI1LTA3LTI2IiwiTEFYIiwiRjkiLCI0MTQ1Il1dXV0="
+        },
+        {
+          "departure_time": "26-07-2025 06:59 AM",
+          "arrival_time": "26-07-2025 07:52 PM",
+          "duration": {
+            "raw": 953,
+            "text": "15 hr 53 min"
+          },
+          "flights": [
+            {
+              "departure_airport": {
+                "airport_name": "John F. Kennedy International Airport",
+                "airport_code": "JFK",
+                "time": "2025-7-26 06:59"
+              },
+              "arrival_airport": {
+                "airport_name": "Harry Reid International Airport",
+                "airport_code": "LAS",
+                "time": "2025-7-26 09:36"
+              },
+              "duration": {
+                "raw": 337,
+                "text": "5 hr 37 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 3237",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 220 kg CO2e"
+              ]
+            },
+            {
+              "departure_airport": {
+                "airport_name": "Harry Reid International Airport",
+                "airport_code": "LAS",
+                "time": "2025-7-26 18:31"
+              },
+              "arrival_airport": {
+                "airport_name": "Los Angeles International Airport",
+                "airport_code": "LAX",
+                "time": "2025-7-26 19:52"
+              },
+              "duration": {
+                "raw": 81,
+                "text": "1 hr 21 min"
+              },
+              "airline": "Frontier",
+              "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+              "flight_number": "F9 1183",
+              "aircraft": "Airbus A321neo",
+              "seat": "Below average legroom",
+              "legroom": "28 in",
+              "extensions": [
+                "Below average legroom (28 in)",
+                "Emissions estimate: 41 kg CO2e"
+              ]
+            }
+          ],
+          "delay": {
+            "values": false,
+            "text": 0
+          },
+          "self_transfer": false,
+          "layovers": [
+            {
+              "airport_code": "LAS",
+              "airport_name": "Harry Reid International Airport",
+              "duration_label": "8 hr 55 min",
+              "duration": 535,
+              "city": "Las Vegas"
+            }
+          ],
+          "bags": {
+            "carry_on": 1,
+            "checked": 0
+          },
+          "carbon_emissions": {
+            "difference_percent": -24,
+            "CO2e": 261000,
+            "typical_for_this_route": 342000,
+            "higher": -81000
+          },
+          "price": 614,
+          "stops": 0,
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "booking_token": "W1sxLDEsWyIxIiwwLDAsMF1dLFsiMjAyNS0wNy0yMiIsIkxBWCIsIkpGSyIsW1siTEFYIiwiMjAyNS0wNy0yMiIsIk1DTyIsIkY5IiwiNDE0NiJdLFsiTUNPIiwiMjAyNS0wNy0yMyIsIkpGSyIsIkY5IiwiNDg3MiJdXV0sWyIyMDI1LTA3LTI2IiwiSkZLIiwiTEFYIixbWyJKRksiLCIyMDI1LTA3LTI2IiwiTEFTIiwiRjkiLCIzMjM3Il0sWyJMQVMiLCIyMDI1LTA3LTI2IiwiTEFYIiwiRjkiLCIxMTgzIl1dXV0="
+        }
+      ]
+    },
+    "priceHistory": {
+      "summary": {
+        "current": null,
+        "low": null,
+        "typical": null,
+        "high": null
+      },
+      "history": []
+    }
+  }
+}
