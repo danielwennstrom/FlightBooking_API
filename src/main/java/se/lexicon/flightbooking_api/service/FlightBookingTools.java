@@ -116,9 +116,9 @@ public class FlightBookingTools {
         }
     }
 
+    @Transactional
     @Tool(description = "Cancels the flight booking using the passenger's contact email")
-    public String cancelFlight(BookingDTO bookingDto) {
-        Booking booking = bookingMapper.toEntity(bookingDto);
+    public String cancelFlight(Booking booking) {
         flightBookingRepository.delete(booking);
         return "Booking deleted";
     }
