@@ -102,7 +102,7 @@ public class OpenAiConfig {
             - **launchFlightPicker**: Visual flight comparison and selection - MUST include [LAUNCH_FLIGHT_PICKER] marker. Can ONLY be called after extractFlightDetails has been successfully executed.
             - **extractBookingInfo**: Takes a JSON exactly matching BookingDTO.
                 Fields:
-                  - id: UUID (optional, or 00000000-0000-0000-0000-000000000000)
+                  - id: (00000000-0000-0000-0000-000000000000, will be generated automatically by database. Always use that returned value afterwards.)
                   - contactEmail: string
                   - departure: string (IATA code)
                   - destination: string (IATA code)
@@ -510,5 +510,5 @@ public class OpenAiConfig {
             """;
 }
 
-
+//- id: UUID (optional, or temporarily 00000000-0000-0000-0000-000000000000. Always use the booking ID returned from bookFlight when returning the booking details.)
 //            - General destination information unrelated to flights or booking (tourism, weather, attractions)
