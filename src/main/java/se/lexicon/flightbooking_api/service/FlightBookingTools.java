@@ -57,7 +57,6 @@ public class FlightBookingTools {
     ) {
         System.out.println("Launching extractBookingInfo");
         Booking bookingInfo = bookingMapper.toEntity(bookingDto);
-        setPassengerAssociation(passengerDataList, bookingInfo);
 
         System.out.println("Extracted booking info: " + bookingInfo);
         return bookingInfo;
@@ -66,7 +65,6 @@ public class FlightBookingTools {
     private void setPassengerAssociation(List<PassengerDTO> passengerDataList, Booking bookingInfo) {
         passengerDataList.forEach(dto -> {
             Passenger passenger = passengerMapper.toEntity(dto);
-            passenger.setBooking(bookingInfo);
             bookingInfo.addPassenger(passenger);
         });
     }
@@ -119,7 +117,7 @@ public class FlightBookingTools {
     @Transactional
     @Tool(description = "Cancels the flight booking using the passenger's contact email")
     public String cancelFlight(Booking booking) {
-        flightBookingRepository.delete(booking);
+        flightBookingRepository.deleteById(booking.getId());
         return "Booking deleted";
     }
 

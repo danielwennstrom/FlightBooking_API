@@ -1,19 +1,15 @@
 package se.lexicon.flightbooking_api.entity.booking;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
 import se.lexicon.flightbooking_api.deserializer.MultiFormatLocalDateTimeDeserializer;
-import se.lexicon.flightbooking_api.entity.FlightInfo;
 import se.lexicon.flightbooking_api.entity.flights.Flight;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.UUID;
@@ -76,7 +72,16 @@ public class Booking {
     }
 
     public void addPassenger(Passenger passenger) {
-        passenger.setBooking(this);
-        this.passengerList.add(passenger);
+        if (passenger.getBooking() != this) {
+            passenger.setBooking(this);
+        }
+        
+        if (this.passengerList == null) {
+            this.passengerList = new ArrayList<>();
+        }
+        
+        if (!this.passengerList.contains(passenger)) {
+            this.passengerList.add(passenger);
+        }
     }
 }
