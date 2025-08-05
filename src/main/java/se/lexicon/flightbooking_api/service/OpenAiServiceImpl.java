@@ -1,7 +1,5 @@
 package se.lexicon.flightbooking_api.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
@@ -9,19 +7,15 @@ import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 import se.lexicon.flightbooking_api.config.OpenAiConfig;
 import se.lexicon.flightbooking_api.dto.MessageDTO;
 import se.lexicon.flightbooking_api.dto.flights.FlightDTO;
 import se.lexicon.flightbooking_api.entity.ToolResponse;
 
-import java.io.Console;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 @Service
 public class OpenAiServiceImpl implements OpenAiService {
@@ -75,6 +69,8 @@ public class OpenAiServiceImpl implements OpenAiService {
         MessageDTO botResponse = MessageDTO.fromBot(responseText);
         botResponse.setFlightInfo(flightSearchTools.getLastParsedFlightInfo());
 
+        // the frontend relies on these ToolResponses to render the visual tools, and the backend relies on these strings
+        // because getting the ToolCalls from the ChatResponse didn't seem to work
         assert responseText != null;
         if (responseText.contains("[LAUNCH_DATE_PICKER]")) {
             botResponse.addToolResponse(new ToolResponse("DATE_PICKER", null));
