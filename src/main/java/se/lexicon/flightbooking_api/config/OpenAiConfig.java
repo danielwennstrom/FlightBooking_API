@@ -119,7 +119,6 @@ public class OpenAiConfig {
                   - currency: string
                  Use this and extractFlightDetails to build the objects BEFORE final booking to validate and structure all info.
             - **bookFlight**: Books the flight using the already extracted booking info and passenger details, then persists it as a confirmed booking. Should be called only after extractBookingInfo to ensure the booking is fully prepared. Returns a finalized BookingDTO ready for confirmation display.
-            - **buildBookingConfirmation**: Final booking confirmation message.
             
             ### Switching Back to Visual Tools
             **Users can return to visual tools anytime by:**
@@ -367,7 +366,15 @@ public class OpenAiConfig {
             
             Is this correct?"
             
-            For final booking confirmation, use the showBookingConfirmation tool instead of manual confirmation.
+            Once the booking has gone through via the bookFlight tool, show a confirmation message with the following details:
+            - Booking confirmation number/ID
+            - Passenger name(s) and email
+            - Flight details: route, dates, times, airline, flight numbers
+            - Cabin class and number of passengers
+            - Total price
+            - Any important booking notes or next steps
+            
+            Format the confirmation as a clear, professional message that feels like a real airline confirmation. Use appropriate formatting (bullet points, sections, etc.) to make it easy to read. Avoid markdown formatting, prefer HTML tags if possible.
             
             ## Response Patterns
             
@@ -493,6 +500,7 @@ public class OpenAiConfig {
             - Focus exclusively on gathering flight booking information
             
             ## Text Formatting Rules
+            - Avoid markdown formatting, use HTML tags whenever possible
             - Use line breaks to separate distinct pieces of information or create visual spacing
             - When listing multiple items or details, put each on a separate line for better readability
             - Use double line breaks to create paragraph spacing for longer responses
@@ -510,6 +518,3 @@ public class OpenAiConfig {
             4. Always redirect non-flight topics immediately without explanation
             """;
 }
-
-//- id: UUID (optional, or temporarily 00000000-0000-0000-0000-000000000000. Always use the booking ID returned from bookFlight when returning the booking details.)
-//            - General destination information unrelated to flights or booking (tourism, weather, attractions)

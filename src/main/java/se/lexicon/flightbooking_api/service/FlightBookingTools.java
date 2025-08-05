@@ -120,25 +120,4 @@ public class FlightBookingTools {
         flightBookingRepository.deleteById(booking.getId());
         return "Booking deleted";
     }
-
-    @Tool(description = "Build the final booking confirmation message with relevant information to the user")
-    public String buildBookingConfirmation(BookingDTO bookingDto) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Booking successful! 🎉\n");
-        sb.append("Booking ID: ").append(bookingDto.getId()).append("\n");
-        sb.append("Flight: ").append(bookingDto.getDeparture())
-                .append(" to ").append(bookingDto.getDestination()).append("\n");
-        sb.append("Departure date: ").append(bookingDto.getDepartureDate().toLocalDate()).append("\n");
-        if (bookingDto.isRoundTrip()) {
-            sb.append("Return date: ").append(bookingDto.getReturnDate().toLocalDate()).append("\n");
-        }
-        sb.append("Passengers:\n");
-        for (PassengerDTO p : bookingDto.getPassengerList()) {
-            sb.append("- ").append(p.getPassengerName()).append("\n");
-        }
-        sb.append("Confirmation email sent to: ").append(bookingDto.getContactEmail()).append("\n");
-        sb.append("Total price: ").append(bookingDto.getTotalPrice()).append(" ").append(bookingDto.getCurrency());
-
-        return sb.toString();
-    }
 }
