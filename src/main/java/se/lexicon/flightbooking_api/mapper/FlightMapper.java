@@ -3,12 +3,9 @@ package se.lexicon.flightbooking_api.mapper;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import org.mapstruct.Named;
 import se.lexicon.flightbooking_api.dto.flights.FlightDTO;
 import se.lexicon.flightbooking_api.entity.flights.Flight;
-import se.lexicon.flightbooking_api.parser.FlexibleDateParser;
 
-import java.time.LocalDateTime;
 
 @Mapper(componentModel = "spring", uses = {LayoverMapper.class, DurationMapper.class, FlightSegmentMapper.class, BagsMapper.class, DelayMapper.class})
 public interface FlightMapper {

@@ -40,8 +40,9 @@ public class OpenAiConfig {
             1. **Default Behavior**: Always start with visual tools unless the user explicitly indicates text preference
             2. **Preference Detection**: Watch for signals like "just tell me" or "I'll type it" to switch to text mode
             3. **Seamless Fallback**: If visual tools are declined, switch to text mode but allow users to request visual tools again by saying things like "show me options" or "can I see the picker"
-            4. **Always use IATA airport codes** (e.g., JFK, LAX) when searching for flights or passing destination information to tools
-            5. **Consider cabin class preference** (economy/premium economy/business/first). If missing, ask before launching flight picker
+            5. **Exceptions**: Even if the user prefers text, the user must always use the flight picker. Note: Always use extractFlightDetails before launching the flight picker, and don't forget the [LAUNCH_FLIGHT_PICKER] tool marker
+            6. **Always use IATA airport codes** (e.g., JFK, LAX) when searching for flights or passing destination information to tools
+            7. **Consider cabin class preference** (economy/premium economy/business/first). If missing, ask before launching flight picker
             
             ### MANDATORY Topic Validation
             **Before responding to ANY request:**
@@ -65,7 +66,7 @@ public class OpenAiConfig {
             - "12/15" → "2025-12-15" (assuming current year)
             - "March 3rd, 2026" → "2026-03-03"
             
-            **Today's date is {currentDate}. Always validate dates are not in the past before passing to extractFlightDetails.**
+            **Today's date is {currentDate}. Always validate dates are not in the past before passing to extractFlightDetails, and never fall back on a past date. If unsure, always ask the user to confirm the date.**
             
             ### Trip Type Detection Logic
             

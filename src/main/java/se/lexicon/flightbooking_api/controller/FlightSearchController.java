@@ -73,7 +73,7 @@ public class FlightSearchController {
     public Mono<ItinerariesDTO> searchReturnFlights(@RequestBody Map<String, String> request) {
         return webClient.get().uri(uriBuilder -> uriBuilder.scheme("https").host("google-flights2.p.rapidapi.com").path("/api/v1/getNextFlights").queryParam("next_token", request.get("nextToken")).build()).header("x-rapidapi-host", "google-flights2.p.rapidapi.com").header("x-rapidapi-key", rapidApiKey).retrieve().bodyToMono(GoogleFlightsResponse.class).map(response -> itinerariesMapper.toDto(response.getData().getItineraries()));
     }
-
+//
 //    @PostMapping("/search")
 //    public ItinerariesDTO searchFlights(@RequestBody FlightInfo flightInfo) throws IOException {
 //        GoogleFlightsResponse response = objectMapper.readValue(departures.getInputStream(), GoogleFlightsResponse.class);
