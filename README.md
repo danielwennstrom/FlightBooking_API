@@ -1,61 +1,67 @@
-# ✈️ Flight Reservation - Project Test
+# ✈️ Flight Booking API - Project Test
 
-This project is a Spring Boot application connected to a backend database to manage flight and booking data.
+A Spring Boot REST API that powers flight booking chatbots with real flight data integration, and handles booking services for customers. This API provides endpoints for flight search and AI-powered conversation handling.
 
-The system allows users to:
+**Note: This is a backend API only - no frontend interface included. See https://github.com/danielwennstrom/FlightBooking_frontend**
 
-- View a list of all flights
-- See only available flights
-- Book a flight using their name and email
-- Cancel a booking using their email
-- Check all their bookings by email
+## Key Features
+- **Flight Search**: Integration with Google Flights API for real-time flight data
+- **Airport Database**: Comprehensive airport selection from CSV data
+- **AI-Powered Booking**: OpenAI integration with specialized flight booking prompts
+- **Booking Management**: Create, view, and cancel flight reservations
+- **Conversation Processing**: Extract flight details from natural language conversations
 
-## Objective:
-Your task is to enhance the existing Flight Reservation System by integrating an AI assistant that can handle user queries related to offer available flight bookings, cancellations, and booking a flight.
+## Known Limitations
+- While the AI itself only needs the IATA code to structure the data to call the Google Flights API, the airport data presented to the user on the frontend side is limited to open-sourced information in the provided CSV dataset.
+- Airport data doesn't guarantee flight availability for locations beyond major hubs
+- Booking simulation only - no actual flight purchases
 
----
+## Built With
+- Spring Boot
+- OpenAI API
+- Google Flights API (via RapidAPI)
+- OpenCSV to parse CSV files
+- Dotenv for environment variables
+- MapStruct
+- H2 and MySQL/MariaDB
 
-## 🚀 Getting Started
+## Prerequisites
+- Java 17+
+- Maven 3.6+
+- OpenAI API account
+- RapidAPI account (for Google Flights access)
 
-1. Fork this repository
-2. Clone your fork
-3. Run the application
-4. Visit the API documentation at `http://localhost:8080/swagger-ui.html`
-5. Explore the app's features
-6. Integrate your AI assistant API
-7. Implement a user-friendly chatbot interface using ReactJS
+## Quick Start
+1. Clone the repository
+2. Set up environment variables (see Installation section)
+3. Run `./mvnw spring-boot:run` (or your preferred method)
+4. API will be available at `http://localhost:8080`
+5. View API documentation at `http://localhost:8080/swagger-ui.html`
+6. Test endpoints with Postman, curl, or your preferred API client
 
----
+## Installation
+Before running the application, some environment variables need to be set. This project uses Dotenv to handle these variables. A '.env' file should be created in ```src/main/java/se/lexicon/flightbooking_api/config```.  
+These variables include:
+```yaml  
+DB_USER=YOUR_USERNAME  
+DB_PASSWORD=YOUR_PASSWORD  
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY  
+RAPIDAPI_API_KEY=YOUR_RAPIDAPI_API_KEY  
+```  
 
-## 🧠 Requirements
+## TODO
+- Refactor the flights searching into their own tools? Currently, the API call is done from the frontend side using structured data returned from the AI once all information is collected.
+- Filter airports by type before anything else, ```medium_airport``` and ```large_airport```, which would likely be more viable for available flights.
+- Redesign the entity structures, maybe collect more information from the conversation such as preferred currency and passenger information (number of adults, children, etc.) to be used for the flights search.
+- Implement configuration options to enable/disable certain features.
+- Rip out the whole booking system into a separate project, and turn it into a proper API.
 
-Integrate the app with **OpenAI** using your API key.
+## API documentation
+API documentation is available through Swagger UI at http://localhost:8080/swagger-ui.html.   
+If you'd prefer to work with the mock flight data in ```src/main/resources/data``` for development, see ```FlightSearchController.java``` until configuration options are implemented.
 
-Create a new API endpoint that accepts **user input as a question or request**.  
-The assistant should understand the message and help the user with:
-
-- Booking a flight
-- Cancelling a flight
-- Checking their bookings
-
-### 1. To build a helpful assistant, you should:
-
-- Define a clear and well-crafted **system message** to guide the assistant's behavior
-- Use **in-memory chat history** to maintain the context of the conversation with a limited number of messages.
-- Implement **tool calling** so the assistant can trigger actions like searching flights or booking a seat based on the
-  user's request
-- Fine-tune the assistant's replies to match the tone and flow of your app
-
-Make sure your assistant can guide the user step-by-step and handle missing or unclear information gracefully.
-
-### 2. Frontend Implementation:
-
-After integrating the Backend API with the AI model, create a user-friendly chatbot interface using ReactJS that:
-
-- Implements an interactive chatbot component that allows users to:
-    - Ask questions about flights
-    - Get assistance with bookings
-    - Receive real-time responses from the AI assistant
-
-
-
+## Credits
+- **DataCrawler** at RapidAPI for their Google Flights API (https://rapidapi.com/DataCrawler/api/google-flights2)
+- **OurAirports** for their open airports data (https://ourairports.com/data/)
+- **OpenAI** for providing the AI conversation capabilities
+- **Lexicon** - This project was created as part of their Java course
